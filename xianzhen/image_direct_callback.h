@@ -20,7 +20,7 @@ using namespace std;
 #include <fstream> // Using for logging
 
 #include <time.h>
-
+clock_t start_getimage_one,start_getimage_two,finish_getimage_one,finish_getimage_two,start_saveredis,finish_saveredis;
 // Structure for Camera Parameter
 typedef struct _Parameter_ {
     int roi_width;
@@ -732,8 +732,8 @@ string image_naming(string order_num, string timestamp, string timestamp_without
 // Change Raw Data into Image Data
 MV_SAVE_IMAGE_PARAM_EX raw_to_image(line li,MV_FRAME_OUT_INFO_EX* img_inf, void* pUser) 
 {
-    unsigned int nJpegSize =li.nNeedSize; //10 * 1024 *1024;
-    //unsigned char *pDataForSaveImage=(unsigned char*)malloc(nJpegSize);
+    unsigned int nJpegSize = li.nNeedSize*2; //10 * 1024 *1024;
+   // unsigned char *pDataForSaveImage=(unsigned char*)malloc(nJpegSize);
 
     // fill in the parameters of save image
     MV_SAVE_IMAGE_PARAM_EX stSaveParam;
@@ -748,9 +748,18 @@ MV_SAVE_IMAGE_PARAM_EX raw_to_image(line li,MV_FRAME_OUT_INFO_EX* img_inf, void*
     stSaveParam.nHeight     = li.nTotalHeight; 
     stSaveParam.pData       = li.pData;
     stSaveParam.nDataLen    = li.nTotalLen;
-    stSaveParam.pImageBuffer = (unsigned char*)malloc(nJpegSize);
+    stSaveParam.pImageBuffer= (unsigned char*)malloc(nJpegSize);//pDataForSaveImage;
     stSaveParam.nJpgQuality = 80;
     int nRet = MV_CC_SaveImageEx2(pUser, &stSaveParam);
+
+
+    static int a=60;
+    char strFilename[64] = {0};
+    sprintf(strFilename, "/home/docker/IBM/camera/Image_%d.jpg", a);
+    FILE* fd = fopen(strFilename, "wb+");
+    fwrite(stSaveParam.pImageBuffer, stSaveParam.nImageLen, 1, fd);
+    fclose(fd);
+    a+=1;
     //string encoded_image = base64_encode(stSaveParam.pImageBuffer,stSaveParam.nImageLen);
 	
 	/*fstream file("1.txt",ofstream::app | ios::binary | ofstream::out);
@@ -998,6 +1007,7 @@ MV_SAVE_IMAGE_PARAM_EX raw_to_image(line li,MV_FRAME_OUT_INFO_EX* img_inf, void*
 
 void saveredis(void* pUser,MV_SAVE_IMAGE_PARAM_EX encoded_img_data,line camera_line)
 {
+    start_saveredis=clock();
     int cur_camera_num;
     if(pUser==handle_one)
         cur_camera_num = 1;
@@ -1008,7 +1018,8 @@ void saveredis(void* pUser,MV_SAVE_IMAGE_PARAM_EX encoded_img_data,line camera_l
     string now_time = get_current_date_time(now);
     string now_time_without_symbol = get_current_date_time_without_symbol(now);            
     string key_word = image_naming(work_order.order_num,now_time,now_time_without_symbol,1,cur_camera_num,camera_line);
-    logger_file << logging_generation("INFO","store image into redis");
+    logger_file << logging_generation("INFO","store image into redis:"+now_time);
+    cout << "store image into redis:"<<now_time<<endl;
     string select_4_command_str = "select 4";
     char* select_4_command = (char*)select_4_command_str.c_str();
     redisReply* select_4_reply = redis_command_execution(listener,select_4_command,REDIS_REPLY_STRING);
@@ -1075,13 +1086,12 @@ void saveredis(void* pUser,MV_SAVE_IMAGE_PARAM_EX encoded_img_data,line camera_l
         return ;
     }
     freeReplyObject(select_0_reply);    
+    finish_saveredis=clock();
     logger_file << logging_generation("INFO", "picture_storage_queue Time: " + get_current_date_time(time(0))); 
 }
 
-
 void ImageCallBackEx(unsigned char * e_pData, MV_FRAME_OUT_INFO_EX* pFrameInfo, void* pUser) 
 {
-	
     if (pFrameInfo) 
     {
         lock(t1,t2);
@@ -1105,6 +1115,7 @@ void ImageCallBackEx(unsigned char * e_pData, MV_FRAME_OUT_INFO_EX* pFrameInfo, 
 		MV_SAVE_IMAGE_PARAM_EX encoded_img_data;
         if(pUser==line_one.handle)
         {
+            start_getimage_one=clock();
             cout<<"line_one:"<<line_one.nCurHeight<<","<<line_one.g_nTotalHeight<<endl;
             memcpy(line_one.pData+line_one.nCurOffset,e_pData,pFrameInfo->nFrameLen);
             line_one.nCurOffset += pFrameInfo->nFrameLen;
@@ -1118,14 +1129,17 @@ void ImageCallBackEx(unsigned char * e_pData, MV_FRAME_OUT_INFO_EX* pFrameInfo, 
                 line_one.nCurOffset = 0;
                 line_one.nCurHeight = 0;
 				line_one.nTotalWidth = pFrameInfo->nWidth;
+                finish_getimage_one=clock();
             }
             if(true==line_one.bGetAllImage)
             {
+                finish_getimage_one=clock();
                 encoded_img_data=raw_to_image(line_one,pFrameInfo,pUser);
             }
         }
         else if(pUser==line_two.handle)
         {
+            start_getimage_two=clock();
 	        cout<<"line_two:"<<line_two.nCurHeight<<","<<line_two.g_nTotalHeight<<endl;
             memcpy(line_two.pData+line_two.nCurOffset,e_pData,pFrameInfo->nFrameLen);
             line_two.nCurOffset += pFrameInfo->nFrameLen;
@@ -1139,6 +1153,7 @@ void ImageCallBackEx(unsigned char * e_pData, MV_FRAME_OUT_INFO_EX* pFrameInfo, 
                 line_two.nCurOffset = 0;
                 line_two.nCurHeight = 0;
 				line_two.nTotalWidth = pFrameInfo->nWidth;
+                finish_getimage_two=clock();
             }
             if(true==line_two.bGetAllImage)
             {
@@ -1149,25 +1164,30 @@ void ImageCallBackEx(unsigned char * e_pData, MV_FRAME_OUT_INFO_EX* pFrameInfo, 
 
         if(pUser==line_one.handle&&line_one.bGetAllImage)
         {
-	        cout<<"line_one: saveredis"<<endl;
+	        cout<<"line_one: saveredis"<<get_current_date_time(time(0)) << endl;
+            start_saveredis=clock();
             saveredis(pUser,encoded_img_data,line_one);
             line_one.bGetAllImage=false;
             memset(line_one.pData,0,line_one.nNeedSize);
-			free(encoded_img_data.pImageBuffer);
+            cout<<"saveredis success"<<get_current_date_time(time(0)) << endl;
+            logger_file<<logging_generation("INFO","SaveRedisCost:"+(abs(finish_saveredis-start_saveredis)*1000/CLOCKS_PER_SEC));
+			free(encoded_img_data.pImageBuffer);			
         }
         if(pUser==line_two.handle&&line_two.bGetAllImage)
         {
-	        cout<<"line_two: saveredis"<<endl;
+            finish_saveredis=clock();
+	        cout<<"line_two: saveredis"<<get_current_date_time(time(0)) << endl;
             saveredis(pUser,encoded_img_data,line_two);
             line_two.bGetAllImage=false; 
             memset(line_two.pData,0,line_two.nNeedSize);
-			free(encoded_img_data.pImageBuffer);			
+            cout<<"saveredis success"<<get_current_date_time(time(0)) << endl;            
+			free(encoded_img_data.pImageBuffer);  
         }
         logger_file.close();
         t1.unlock();
         t2.unlock();
         cout << "End Time: " << get_current_date_time(time(0)) << endl;
-    }
+    }   
 }
 
 Work_Order work_order_info_grabber(redisContext* listener){
@@ -1274,6 +1294,12 @@ int lineban(int input,int limit)
         int ban_size=ceil(((float)input)/no);
         if(ban_size>limit)
             no++;
+        else if(ban_size%2!=0)
+        {
+            ban_size++;
+            ban=ban_size;
+            break;
+        }
         else
         {
             ban=ban_size;
@@ -1315,7 +1341,6 @@ bool parameter_setting(int nRet, void* handle, Parameter cp, int* camera_num)
 		}
 	}
     
-    
 	cout<<"2"<<endl;	
     //相机注册
     if(handle==handle_one) line_one.set(cp.height,handle_one);
@@ -1330,6 +1355,13 @@ bool parameter_setting(int nRet, void* handle, Parameter cp, int* camera_num)
         return false;
     }
 	cout << "ExposureTime:" << cp.exposure_time << endl;
+    nRet = MV_CC_SetBoolValue(handle,"GammaEnable",1);
+    if (MV_OK != nRet)
+	{
+		printf("MV_CC_GammaEnable fail! nRet [%x]\n", nRet);
+		logger_file << logging_generation("ERROR","MV_CC_GammaEnable fail! nRet: " + to_string(nRet));
+		return false;
+	}
 	if(exposurelevel_opt == 1 || exposurelevel_opt == 2)
 	{
 		nRet = MV_CC_SetFloatValue(handle, "Gamma", 1.0);
@@ -1392,15 +1424,12 @@ bool parameter_setting(int nRet, void* handle, Parameter cp, int* camera_num)
         logger_file << logging_generation("ERROR","set TriggerSelector fail! nRet: " + to_string(nRet));
         return false;
     }
-
-	// set trigger mode as on
-    nRet = MV_CC_SetEnumValue(handle, "TriggerMode", 1);
+	nRet = MV_CC_SetEnumValue(handle, "TriggerMode", 1);
     if (MV_OK != nRet) {
         printf("ERROR: set TriggerSelector fail! nRet [%x]\n", nRet);
         logger_file << logging_generation("ERROR","set TriggerSelector fail! nRet: " + to_string(nRet));
         return false;
     }
-	
 	//set trigger sourc	e as FrequencyConverter
 	nRet = MV_CC_SetEnumValue(handle, "TriggerSource", 8);
     if (MV_OK != nRet)
@@ -1409,7 +1438,7 @@ bool parameter_setting(int nRet, void* handle, Parameter cp, int* camera_num)
 		logger_file << logging_generation("ERROR","set TriggerSource fail! nRet: " + to_string(nRet));
         return false;
     }
-	
+
 	//set trigger actication as RisingEdge 
 	nRet = MV_CC_SetEnumValue(handle, "TriggerActivation", 0);
     if (MV_OK != nRet)
@@ -1418,6 +1447,48 @@ bool parameter_setting(int nRet, void* handle, Parameter cp, int* camera_num)
 		logger_file << logging_generation("ERROR","set TriggerActivation fail! nRet: " + to_string(nRet));
         return false;
     }
+
+
+
+
+    //set trigger selector as  frameburststart
+    nRet = MV_CC_SetEnumValue(handle, "TriggerSelector", 6);
+    if (MV_OK != nRet) {
+        printf("ERROR: set TriggerSelector fail! nRet [%x]\n", nRet);
+        logger_file << logging_generation("ERROR","set TriggerSelector fail! nRet: " + to_string(nRet));
+        return false;
+    }
+    nRet = MV_CC_SetEnumValue(handle, "TriggerMode", 1);
+    if (MV_OK != nRet) {
+        printf("ERROR: set TriggerSelector fail! nRet [%x]\n", nRet);
+        logger_file << logging_generation("ERROR","set TriggerSelector fail! nRet: " + to_string(nRet));
+        return false;
+    }
+    //set trigger sourc	e as line2
+	nRet = MV_CC_SetEnumValue(handle, "TriggerSource", 2);
+    if (MV_OK != nRet)
+    {
+        printf("ERROR: set TriggerSource fail [%x]\n", nRet);
+		logger_file << logging_generation("ERROR","set TriggerSource fail! nRet: " + to_string(nRet));
+        return false;
+    }
+    nRet = MV_CC_SetEnumValue(handle, "TriggerActivation", 2);
+    if (MV_OK != nRet)
+    {
+        printf("ERROR: set TriggerActivation fail [%x]\n", nRet);
+		logger_file << logging_generation("ERROR","set TriggerActivation fail! nRet: " + to_string(nRet));
+        return false;
+    }
+    nRet = MV_CC_SetEnumValue(handle, "TriggerPartialClose", 1);
+    if (MV_OK != nRet)
+    {
+        printf("ERROR: set TriggerPartialClose fail [%x]\n", nRet);
+		logger_file << logging_generation("ERROR","set TriggerPartialClose fail! nRet: " + to_string(nRet));
+        return false;
+    }
+
+
+
 
 	//set InputSource as Encoder Module Out 
 	nRet = MV_CC_SetEnumValue(handle, "InputSource", 7);

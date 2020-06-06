@@ -1,0 +1,3640 @@
+Current Time: 2020-06-06-15:39:29:748017
+Succeed to connect to Redis Server.
+[device 0]:
+Device Model Name: MV-CL021-40GM
+CurrentIp: 192.168.1.101
+UserDefinedName: 
+
+[device 1]:
+Device Model Name: MV-CL021-40GM
+CurrentIp: 169.254.247.165
+UserDefinedName: 
+
+current camera one: 0
+current camera two: 1
+nPacketSize: 8164
+nPacketSize: 8164
+Top count: 0
+light
+upperCameraLineHeight:940
+underCameraLineHeight:940
+exposurelevel:5
+exposurelevelNumber1_hahaha:25
+upperCamera,right_exposure:940,25
+underCamera:48000
+set camera height: [16000]
+2
+g_nTotalHeight,ban_height,ban_height_num:48000,16000,3
+3
+4
+ExposureTime:25
+Gamma:0.7
+set camera height: [16000]
+2
+3
+g_nTotalHeight,ban_height,ban_height_num:48000,16000,3
+4
+ExposureTime:25
+Gamma:0.7
+Machine stopped and reset camera_one_img_count and camera_two_img_count
+
+
+
+
+
+
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[1]
+Enter Lock Time: 2020-06-06-15:40:01:691271
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:01:745565
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[1]
+Enter Lock Time: 2020-06-06-15:40:01:754059
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:01:806512
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[2]
+Enter Lock Time: 2020-06-06-15:40:02:226024
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:02:234882
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[2]
+Enter Lock Time: 2020-06-06-15:40:02:290328
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:02:300160
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[3]
+Enter Lock Time: 2020-06-06-15:40:02:760542
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:02:772246
+store image into redis:2020-06-06-15:40:03:197117
+20200606154003197133012##24402205##2020-06-06-15:40:03:197117##01##2##16000##6144 without image is lpushed to redis
+20200606154003197133012##24402205##2020-06-06-15:40:03:197117##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:03:243434
+End Time: 2020-06-06-15:40:03:243488
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[3]
+Enter Lock Time: 2020-06-06-15:40:03:244697
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:03:254323
+store image into redis:2020-06-06-15:40:03:646046
+20200606154003646065011##24402205##2020-06-06-15:40:03:646046##01##1##16000##6144 without image is lpushed to redis
+20200606154003646065011##24402205##2020-06-06-15:40:03:646046##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:03:685662
+End Time: 2020-06-06-15:40:03:685728
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[4]
+Enter Lock Time: 2020-06-06-15:40:03:936095
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:03:946368
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[4]
+Enter Lock Time: 2020-06-06-15:40:03:995023
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:04:004529
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[5]
+Enter Lock Time: 2020-06-06-15:40:04:468718
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:04:475747
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[5]
+Enter Lock Time: 2020-06-06-15:40:04:528623
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:04:535854
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[6]
+Enter Lock Time: 2020-06-06-15:40:05:001289
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:05:010284
+store image into redis:2020-06-06-15:40:05:432187
+20200606154005432211012##24402205##2020-06-06-15:40:05:432187##01##2##16000##6144 without image is lpushed to redis
+20200606154005432211012##24402205##2020-06-06-15:40:05:432187##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:05:467247
+End Time: 2020-06-06-15:40:05:467312
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[6]
+Enter Lock Time: 2020-06-06-15:40:05:472449
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:05:483554
+store image into redis:2020-06-06-15:40:05:891842
+20200606154005891863011##24402205##2020-06-06-15:40:05:891842##01##1##16000##6144 without image is lpushed to redis
+20200606154005891863011##24402205##2020-06-06-15:40:05:891842##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:05:921351
+End Time: 2020-06-06-15:40:05:921405
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[7]
+Enter Lock Time: 2020-06-06-15:40:08:331227
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:08:337807
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[7]
+Enter Lock Time: 2020-06-06-15:40:08:393674
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:08:400468
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[8]
+Enter Lock Time: 2020-06-06-15:40:08:866277
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:08:873849
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[8]
+Enter Lock Time: 2020-06-06-15:40:08:936428
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:08:944237
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[9]
+Enter Lock Time: 2020-06-06-15:40:09:408346
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:09:414936
+store image into redis:2020-06-06-15:40:09:860310
+20200606154009860329012##24402205##2020-06-06-15:40:09:860310##01##2##16000##6144 without image is lpushed to redis
+20200606154009860329012##24402205##2020-06-06-15:40:09:860310##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:09:892017
+End Time: 2020-06-06-15:40:09:892087
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[9]
+Enter Lock Time: 2020-06-06-15:40:09:896290
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:09:908111
+store image into redis:2020-06-06-15:40:10:309924
+20200606154010309951011##24402205##2020-06-06-15:40:10:309924##01##1##16000##6144 without image is lpushed to redis
+20200606154010309951011##24402205##2020-06-06-15:40:10:309924##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:10:353115
+End Time: 2020-06-06-15:40:10:353177
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[10]
+Enter Lock Time: 2020-06-06-15:40:11:932962
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:11:939724
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[10]
+Enter Lock Time: 2020-06-06-15:40:11:994873
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:12:001454
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[11]
+Enter Lock Time: 2020-06-06-15:40:12:470336
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:12:477221
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[11]
+Enter Lock Time: 2020-06-06-15:40:12:537946
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:12:544261
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[12]
+Enter Lock Time: 2020-06-06-15:40:13:008920
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:13:016098
+store image into redis:2020-06-06-15:40:13:500908
+20200606154013500931012##24402205##2020-06-06-15:40:13:500908##01##2##16000##6144 without image is lpushed to redis
+20200606154013500931012##24402205##2020-06-06-15:40:13:500908##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:13:538533
+End Time: 2020-06-06-15:40:13:538611
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[12]
+Enter Lock Time: 2020-06-06-15:40:13:542646
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:13:553778
+store image into redis:2020-06-06-15:40:14:044289
+20200606154014044315011##24402205##2020-06-06-15:40:14:044289##01##1##16000##6144 without image is lpushed to redis
+20200606154014044315011##24402205##2020-06-06-15:40:14:044289##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:14:080193
+End Time: 2020-06-06-15:40:14:093827
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[13]
+Enter Lock Time: 2020-06-06-15:40:15:534536
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:15:541232
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[13]
+Enter Lock Time: 2020-06-06-15:40:15:594890
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:15:601650
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[14]
+Enter Lock Time: 2020-06-06-15:40:16:072793
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:16:079375
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[14]
+Enter Lock Time: 2020-06-06-15:40:16:138720
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:16:145726
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[15]
+Enter Lock Time: 2020-06-06-15:40:16:610499
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:16:617220
+store image into redis:2020-06-06-15:40:17:076089
+20200606154017076111012##24402205##2020-06-06-15:40:17:076089##01##2##16000##6144 without image is lpushed to redis
+20200606154017076111012##24402205##2020-06-06-15:40:17:076089##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:17:118099
+End Time: 2020-06-06-15:40:17:118231
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[15]
+Enter Lock Time: 2020-06-06-15:40:17:121125
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:17:131023
+store image into redis:2020-06-06-15:40:17:602952
+20200606154017602988011##24402205##2020-06-06-15:40:17:602952##01##1##16000##6144 without image is lpushed to redis
+20200606154017602988011##24402205##2020-06-06-15:40:17:602952##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:17:649046
+End Time: 2020-06-06-15:40:17:649170
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[16]
+Enter Lock Time: 2020-06-06-15:40:19:236040
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:19:242730
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[16]
+Enter Lock Time: 2020-06-06-15:40:19:294147
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:19:302842
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[17]
+Enter Lock Time: 2020-06-06-15:40:19:770387
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:19:776884
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[17]
+Enter Lock Time: 2020-06-06-15:40:19:826351
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:19:832698
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[18]
+Enter Lock Time: 2020-06-06-15:40:20:301141
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:20:308987
+store image into redis:2020-06-06-15:40:20:832494
+20200606154020832517012##24402205##2020-06-06-15:40:20:832494##01##2##16000##6144 without image is lpushed to redis
+20200606154020832517012##24402205##2020-06-06-15:40:20:832494##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:20:879292
+End Time: 2020-06-06-15:40:20:879343
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[18]
+Enter Lock Time: 2020-06-06-15:40:20:879604
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:20:896081
+store image into redis:2020-06-06-15:40:21:428042
+20200606154021428064011##24402205##2020-06-06-15:40:21:428042##01##1##16000##6144 without image is lpushed to redis
+20200606154021428064011##24402205##2020-06-06-15:40:21:428042##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:21:462718
+End Time: 2020-06-06-15:40:21:462807
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[19]
+Enter Lock Time: 2020-06-06-15:40:22:630906
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:22:639575
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[19]
+Enter Lock Time: 2020-06-06-15:40:22:694570
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:22:702958
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[20]
+Enter Lock Time: 2020-06-06-15:40:23:167070
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:23:174679
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[20]
+Enter Lock Time: 2020-06-06-15:40:23:235325
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:23:242973
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[21]
+Enter Lock Time: 2020-06-06-15:40:23:704341
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:23:711487
+store image into redis:2020-06-06-15:40:24:156991
+20200606154024157011012##24402205##2020-06-06-15:40:24:156991##01##2##16000##6144 without image is lpushed to redis
+20200606154024157011012##24402205##2020-06-06-15:40:24:156991##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:24:197017
+End Time: 2020-06-06-15:40:24:197072
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[21]
+Enter Lock Time: 2020-06-06-15:40:24:201349
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:24:210886
+store image into redis:2020-06-06-15:40:24:737458
+20200606154024737477011##24402205##2020-06-06-15:40:24:737458##01##1##16000##6144 without image is lpushed to redis
+20200606154024737477011##24402205##2020-06-06-15:40:24:737458##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:24:770595
+End Time: 2020-06-06-15:40:24:770651
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[22]
+Enter Lock Time: 2020-06-06-15:40:26:336846
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:26:344015
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[22]
+Enter Lock Time: 2020-06-06-15:40:26:395125
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:26:404867
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[23]
+Enter Lock Time: 2020-06-06-15:40:26:879117
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:26:885842
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[23]
+Enter Lock Time: 2020-06-06-15:40:26:939717
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:26:946375
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[24]
+Enter Lock Time: 2020-06-06-15:40:27:412233
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:27:420360
+store image into redis:2020-06-06-15:40:27:928577
+20200606154027928598012##24402205##2020-06-06-15:40:27:928577##01##2##16000##6144 without image is lpushed to redis
+20200606154027928598012##24402205##2020-06-06-15:40:27:928577##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:27:970941
+End Time: 2020-06-06-15:40:27:971011
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[24]
+Enter Lock Time: 2020-06-06-15:40:27:971060
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:27:983195
+store image into redis:2020-06-06-15:40:28:402576
+20200606154028402595011##24402205##2020-06-06-15:40:28:402576##01##1##16000##6144 without image is lpushed to redis
+20200606154028402595011##24402205##2020-06-06-15:40:28:402576##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:28:432478
+End Time: 2020-06-06-15:40:28:432543
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[25]
+Enter Lock Time: 2020-06-06-15:40:29:531804
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:29:542306
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[25]
+Enter Lock Time: 2020-06-06-15:40:29:594069
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:29:604494
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[26]
+Enter Lock Time: 2020-06-06-15:40:30:066430
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:30:073790
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[26]
+Enter Lock Time: 2020-06-06-15:40:30:125893
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:30:132298
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[27]
+Enter Lock Time: 2020-06-06-15:40:30:597487
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:30:605004
+store image into redis:2020-06-06-15:40:31:196523
+20200606154031196538012##24402205##2020-06-06-15:40:31:196523##01##2##16000##6144 without image is lpushed to redis
+20200606154031196538012##24402205##2020-06-06-15:40:31:196523##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:31:235504
+End Time: 2020-06-06-15:40:31:235591
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[27]
+Enter Lock Time: 2020-06-06-15:40:31:238047
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:31:249257
+store image into redis:2020-06-06-15:40:31:679532
+20200606154031679550011##24402205##2020-06-06-15:40:31:679532##01##1##16000##6144 without image is lpushed to redis
+20200606154031679550011##24402205##2020-06-06-15:40:31:679532##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:31:709405
+End Time: 2020-06-06-15:40:31:709460
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[28]
+Enter Lock Time: 2020-06-06-15:40:32:831199
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:32:839048
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[28]
+Enter Lock Time: 2020-06-06-15:40:32:894201
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:32:900762
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[29]
+Enter Lock Time: 2020-06-06-15:40:33:365311
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:33:372188
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[29]
+Enter Lock Time: 2020-06-06-15:40:33:429729
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:33:436250
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[30]
+Enter Lock Time: 2020-06-06-15:40:33:899882
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:33:906667
+store image into redis:2020-06-06-15:40:34:361455
+20200606154034361486012##24402205##2020-06-06-15:40:34:361455##01##2##16000##6144 without image is lpushed to redis
+20200606154034361486012##24402205##2020-06-06-15:40:34:361455##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:34:412053
+End Time: 2020-06-06-15:40:34:412119
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[30]
+Enter Lock Time: 2020-06-06-15:40:34:429869
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:34:461445
+store image into redis:2020-06-06-15:40:34:976997
+20200606154034977014011##24402205##2020-06-06-15:40:34:976997##01##1##16000##6144 without image is lpushed to redis
+20200606154034977014011##24402205##2020-06-06-15:40:34:976997##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:35:011472
+End Time: 2020-06-06-15:40:35:011542
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[31]
+Enter Lock Time: 2020-06-06-15:40:36:139102
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:36:147846
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[31]
+Enter Lock Time: 2020-06-06-15:40:36:195666
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:36:203575
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[32]
+Enter Lock Time: 2020-06-06-15:40:36:674240
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:36:681360
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[32]
+Enter Lock Time: 2020-06-06-15:40:36:727368
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:36:733910
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[33]
+Enter Lock Time: 2020-06-06-15:40:37:203829
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:37:210639
+store image into redis:2020-06-06-15:40:37:709185
+20200606154037709206012##24402205##2020-06-06-15:40:37:709185##01##2##16000##6144 without image is lpushed to redis
+20200606154037709206012##24402205##2020-06-06-15:40:37:709185##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:37:745555
+End Time: 2020-06-06-15:40:37:745617
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[33]
+Enter Lock Time: 2020-06-06-15:40:37:751102
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:37:759288
+store image into redis:2020-06-06-15:40:38:229892
+20200606154038229914011##24402205##2020-06-06-15:40:38:229892##01##1##16000##6144 without image is lpushed to redis
+20200606154038229914011##24402205##2020-06-06-15:40:38:229892##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:38:258858
+End Time: 2020-06-06-15:40:38:258956
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[34]
+Enter Lock Time: 2020-06-06-15:40:39:736729
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:39:743352
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[34]
+Enter Lock Time: 2020-06-06-15:40:39:793959
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:39:800538
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[35]
+Enter Lock Time: 2020-06-06-15:40:40:280227
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:40:286835
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[35]
+Enter Lock Time: 2020-06-06-15:40:40:337796
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:40:345156
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[36]
+Enter Lock Time: 2020-06-06-15:40:40:813459
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:40:820176
+store image into redis:2020-06-06-15:40:41:275603
+20200606154041275636012##24402205##2020-06-06-15:40:41:275603##01##2##16000##6144 without image is lpushed to redis
+20200606154041275636012##24402205##2020-06-06-15:40:41:275603##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:41:320029
+End Time: 2020-06-06-15:40:41:320099
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[36]
+Enter Lock Time: 2020-06-06-15:40:41:321950
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:41:330254
+store image into redis:2020-06-06-15:40:41:874666
+20200606154041874686011##24402205##2020-06-06-15:40:41:874666##01##1##16000##6144 without image is lpushed to redis
+20200606154041874686011##24402205##2020-06-06-15:40:41:874666##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:41:903694
+End Time: 2020-06-06-15:40:41:903745
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[37]
+Enter Lock Time: 2020-06-06-15:40:43:231530
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:43:238184
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[37]
+Enter Lock Time: 2020-06-06-15:40:43:293879
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:43:301096
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[38]
+Enter Lock Time: 2020-06-06-15:40:43:767730
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:43:774211
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[38]
+Enter Lock Time: 2020-06-06-15:40:43:836958
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:43:843761
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[39]
+Enter Lock Time: 2020-06-06-15:40:44:308173
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:44:314716
+store image into redis:2020-06-06-15:40:44:828898
+20200606154044828917012##24402205##2020-06-06-15:40:44:828898##01##2##16000##6144 without image is lpushed to redis
+20200606154044828917012##24402205##2020-06-06-15:40:44:828898##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:44:875425
+End Time: 2020-06-06-15:40:44:875478
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[39]
+Enter Lock Time: 2020-06-06-15:40:44:878829
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:44:890275
+store image into redis:2020-06-06-15:40:45:457155
+20200606154045457181011##24402205##2020-06-06-15:40:45:457155##01##1##16000##6144 without image is lpushed to redis
+20200606154045457181011##24402205##2020-06-06-15:40:45:457155##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:45:487004
+End Time: 2020-06-06-15:40:45:487052
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[40]
+Enter Lock Time: 2020-06-06-15:40:46:831069
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:46:837923
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[40]
+Enter Lock Time: 2020-06-06-15:40:46:895170
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:46:902523
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[41]
+Enter Lock Time: 2020-06-06-15:40:47:366161
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:47:373577
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[41]
+Enter Lock Time: 2020-06-06-15:40:47:427213
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:47:433453
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[42]
+Enter Lock Time: 2020-06-06-15:40:47:896584
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:47:904147
+store image into redis:2020-06-06-15:40:48:388967
+20200606154048388987012##24402205##2020-06-06-15:40:48:388967##01##2##16000##6144 without image is lpushed to redis
+20200606154048388987012##24402205##2020-06-06-15:40:48:388967##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:48:425728
+End Time: 2020-06-06-15:40:48:425791
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[42]
+Enter Lock Time: 2020-06-06-15:40:48:438181
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:48:448731
+store image into redis:2020-06-06-15:40:49:044210
+20200606154049044232011##24402205##2020-06-06-15:40:49:044210##01##1##16000##6144 without image is lpushed to redis
+20200606154049044232011##24402205##2020-06-06-15:40:49:044210##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:49:073685
+End Time: 2020-06-06-15:40:49:073729
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[43]
+Enter Lock Time: 2020-06-06-15:40:50:337578
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:50:346584
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[43]
+Enter Lock Time: 2020-06-06-15:40:50:394695
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:50:405062
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[44]
+Enter Lock Time: 2020-06-06-15:40:50:869400
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:50:876521
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[44]
+Enter Lock Time: 2020-06-06-15:40:50:927051
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:50:933576
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[45]
+Enter Lock Time: 2020-06-06-15:40:51:408637
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:51:416362
+store image into redis:2020-06-06-15:40:51:893153
+20200606154051893177012##24402205##2020-06-06-15:40:51:893153##01##2##16000##6144 without image is lpushed to redis
+20200606154051893177012##24402205##2020-06-06-15:40:51:893153##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:51:928596
+End Time: 2020-06-06-15:40:51:928666
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[45]
+Enter Lock Time: 2020-06-06-15:40:51:930080
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:51:940334
+store image into redis:2020-06-06-15:40:52:452616
+20200606154052452642011##24402205##2020-06-06-15:40:52:452616##01##1##16000##6144 without image is lpushed to redis
+20200606154052452642011##24402205##2020-06-06-15:40:52:452616##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:52:492851
+End Time: 2020-06-06-15:40:52:492918
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[46]
+Enter Lock Time: 2020-06-06-15:40:53:935243
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:53:943578
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[46]
+Enter Lock Time: 2020-06-06-15:40:53:994953
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:54:001483
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[47]
+Enter Lock Time: 2020-06-06-15:40:54:469751
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:54:476198
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[47]
+Enter Lock Time: 2020-06-06-15:40:54:526227
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:54:532529
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[48]
+Enter Lock Time: 2020-06-06-15:40:55:000926
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:55:007585
+store image into redis:2020-06-06-15:40:55:548787
+20200606154055548813012##24402205##2020-06-06-15:40:55:548787##01##2##16000##6144 without image is lpushed to redis
+20200606154055548813012##24402205##2020-06-06-15:40:55:548787##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:55:591196
+End Time: 2020-06-06-15:40:55:591256
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[48]
+Enter Lock Time: 2020-06-06-15:40:55:594238
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:55:604356
+store image into redis:2020-06-06-15:40:56:039497
+20200606154056039513011##24402205##2020-06-06-15:40:56:039497##01##1##16000##6144 without image is lpushed to redis
+20200606154056039513011##24402205##2020-06-06-15:40:56:039497##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:56:079065
+End Time: 2020-06-06-15:40:56:079156
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[49]
+Enter Lock Time: 2020-06-06-15:40:57:134314
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:40:57:146209
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[49]
+Enter Lock Time: 2020-06-06-15:40:57:194691
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:40:57:203093
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[50]
+Enter Lock Time: 2020-06-06-15:40:57:670128
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:40:57:676723
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[50]
+Enter Lock Time: 2020-06-06-15:40:57:728751
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:40:57:735306
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[51]
+Enter Lock Time: 2020-06-06-15:40:58:200427
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:40:58:208231
+store image into redis:2020-06-06-15:40:58:744933
+20200606154058744966012##24402205##2020-06-06-15:40:58:744933##01##2##16000##6144 without image is lpushed to redis
+20200606154058744966012##24402205##2020-06-06-15:40:58:744933##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:58:784447
+End Time: 2020-06-06-15:40:58:784507
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[51]
+Enter Lock Time: 2020-06-06-15:40:58:789409
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:40:58:805339
+store image into redis:2020-06-06-15:40:59:285163
+20200606154059285186011##24402205##2020-06-06-15:40:59:285163##01##1##16000##6144 without image is lpushed to redis
+20200606154059285186011##24402205##2020-06-06-15:40:59:285163##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:40:59:314282
+End Time: 2020-06-06-15:40:59:329829
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[52]
+Enter Lock Time: 2020-06-06-15:41:00:839316
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:00:846928
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[52]
+Enter Lock Time: 2020-06-06-15:41:00:901695
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:00:909613
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[53]
+Enter Lock Time: 2020-06-06-15:41:01:375818
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:01:384331
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[53]
+Enter Lock Time: 2020-06-06-15:41:01:432907
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:01:440758
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[54]
+Enter Lock Time: 2020-06-06-15:41:01:904327
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:01:912899
+store image into redis:2020-06-06-15:41:02:387115
+20200606154102387135012##24402205##2020-06-06-15:41:02:387115##01##2##16000##6144 without image is lpushed to redis
+20200606154102387135012##24402205##2020-06-06-15:41:02:387115##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:02:429383
+End Time: 2020-06-06-15:41:02:429458
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[54]
+Enter Lock Time: 2020-06-06-15:41:02:432516
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:02:440625
+store image into redis:2020-06-06-15:41:03:012013
+20200606154103012030011##24402205##2020-06-06-15:41:03:012013##01##1##16000##6144 without image is lpushed to redis
+20200606154103012030011##24402205##2020-06-06-15:41:03:012013##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:03:038891
+End Time: 2020-06-06-15:41:03:038948
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[55]
+Enter Lock Time: 2020-06-06-15:41:04:430608
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:04:437187
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[55]
+Enter Lock Time: 2020-06-06-15:41:04:494617
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:04:501269
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[56]
+Enter Lock Time: 2020-06-06-15:41:04:965335
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:04:971797
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[56]
+Enter Lock Time: 2020-06-06-15:41:05:026664
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:05:033958
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[57]
+Enter Lock Time: 2020-06-06-15:41:05:496434
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:05:504611
+store image into redis:2020-06-06-15:41:06:046725
+20200606154106046748012##24402205##2020-06-06-15:41:06:046725##01##2##16000##6144 without image is lpushed to redis
+20200606154106046748012##24402205##2020-06-06-15:41:06:046725##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:06:087603
+End Time: 2020-06-06-15:41:06:087662
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[57]
+Enter Lock Time: 2020-06-06-15:41:06:090951
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:06:103771
+store image into redis:2020-06-06-15:41:06:531682
+20200606154106531700011##24402205##2020-06-06-15:41:06:531682##01##1##16000##6144 without image is lpushed to redis
+20200606154106531700011##24402205##2020-06-06-15:41:06:531682##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:06:569600
+End Time: 2020-06-06-15:41:06:569655
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[58]
+Enter Lock Time: 2020-06-06-15:41:07:636345
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:07:643428
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[58]
+Enter Lock Time: 2020-06-06-15:41:07:694651
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:07:702053
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[59]
+Enter Lock Time: 2020-06-06-15:41:08:170428
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:08:177223
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[59]
+Enter Lock Time: 2020-06-06-15:41:08:226780
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:08:233208
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[60]
+Enter Lock Time: 2020-06-06-15:41:08:701249
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:08:710879
+store image into redis:2020-06-06-15:41:09:133063
+20200606154109133087012##24402205##2020-06-06-15:41:09:133063##01##2##16000##6144 without image is lpushed to redis
+20200606154109133087012##24402205##2020-06-06-15:41:09:133063##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:09:171088
+End Time: 2020-06-06-15:41:09:171136
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[60]
+Enter Lock Time: 2020-06-06-15:41:09:174797
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:09:184777
+store image into redis:2020-06-06-15:41:09:748858
+20200606154109748884011##24402205##2020-06-06-15:41:09:748858##01##1##16000##6144 without image is lpushed to redis
+20200606154109748884011##24402205##2020-06-06-15:41:09:748858##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:09:783867
+End Time: 2020-06-06-15:41:09:783928
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[61]
+Enter Lock Time: 2020-06-06-15:41:11:132196
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:11:138790
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[61]
+Enter Lock Time: 2020-06-06-15:41:11:193604
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:11:201634
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[62]
+Enter Lock Time: 2020-06-06-15:41:11:667563
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:11:675776
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[62]
+Enter Lock Time: 2020-06-06-15:41:11:736941
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:11:743576
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[63]
+Enter Lock Time: 2020-06-06-15:41:12:209166
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:12:216041
+store image into redis:2020-06-06-15:41:12:818888
+20200606154112818908012##24402205##2020-06-06-15:41:12:818888##01##2##16000##6144 without image is lpushed to redis
+20200606154112818908012##24402205##2020-06-06-15:41:12:818888##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:12:868017
+End Time: 2020-06-06-15:41:12:868086
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[63]
+Enter Lock Time: 2020-06-06-15:41:12:877879
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:12:887988
+store image into redis:2020-06-06-15:41:13:270909
+20200606154113270937011##24402205##2020-06-06-15:41:13:270909##01##1##16000##6144 without image is lpushed to redis
+20200606154113270937011##24402205##2020-06-06-15:41:13:270909##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:13:298732
+End Time: 2020-06-06-15:41:13:298779
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[64]
+Enter Lock Time: 2020-06-06-15:41:14:330705
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:14:337976
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[64]
+Enter Lock Time: 2020-06-06-15:41:14:394472
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:14:402596
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[65]
+Enter Lock Time: 2020-06-06-15:41:14:869965
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:14:876415
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[65]
+Enter Lock Time: 2020-06-06-15:41:14:939592
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:14:946209
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[66]
+Enter Lock Time: 2020-06-06-15:41:15:409340
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:15:416372
+store image into redis:2020-06-06-15:41:15:890300
+20200606154115890321012##24402205##2020-06-06-15:41:15:890300##01##2##16000##6144 without image is lpushed to redis
+20200606154115890321012##24402205##2020-06-06-15:41:15:890300##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:15:928057
+End Time: 2020-06-06-15:41:15:928113
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[66]
+Enter Lock Time: 2020-06-06-15:41:15:931774
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:15:942552
+store image into redis:2020-06-06-15:41:16:519986
+20200606154116520010011##24402205##2020-06-06-15:41:16:519986##01##1##16000##6144 without image is lpushed to redis
+20200606154116520010011##24402205##2020-06-06-15:41:16:519986##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:16:553779
+End Time: 2020-06-06-15:41:16:553850
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[67]
+Enter Lock Time: 2020-06-06-15:41:17:935601
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:17:943757
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[67]
+Enter Lock Time: 2020-06-06-15:41:17:994342
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:18:002064
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[68]
+Enter Lock Time: 2020-06-06-15:41:18:470430
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:18:476924
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[68]
+Enter Lock Time: 2020-06-06-15:41:18:526080
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:18:532370
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[69]
+Enter Lock Time: 2020-06-06-15:41:19:001071
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:19:007783
+store image into redis:2020-06-06-15:41:19:453741
+20200606154119453764012##24402205##2020-06-06-15:41:19:453741##01##2##16000##6144 without image is lpushed to redis
+20200606154119453764012##24402205##2020-06-06-15:41:19:453741##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:19:489378
+End Time: 2020-06-06-15:41:19:489439
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[69]
+Enter Lock Time: 2020-06-06-15:41:19:492831
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:19:503229
+store image into redis:2020-06-06-15:41:19:998503
+20200606154119998524011##24402205##2020-06-06-15:41:19:998503##01##1##16000##6144 without image is lpushed to redis
+20200606154119998524011##24402205##2020-06-06-15:41:19:998503##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:20:027231
+End Time: 2020-06-06-15:41:20:027278
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[70]
+Enter Lock Time: 2020-06-06-15:41:21:231363
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:21:241156
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[70]
+Enter Lock Time: 2020-06-06-15:41:21:293956
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:21:302953
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[71]
+Enter Lock Time: 2020-06-06-15:41:21:768193
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:21:776074
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[71]
+Enter Lock Time: 2020-06-06-15:41:21:836641
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:21:842983
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[72]
+Enter Lock Time: 2020-06-06-15:41:22:306993
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:22:315716
+store image into redis:2020-06-06-15:41:22:742072
+20200606154122742095012##24402205##2020-06-06-15:41:22:742072##01##2##16000##6144 without image is lpushed to redis
+20200606154122742095012##24402205##2020-06-06-15:41:22:742072##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:22:781984
+End Time: 2020-06-06-15:41:22:782040
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[72]
+Enter Lock Time: 2020-06-06-15:41:22:784911
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:22:796522
+store image into redis:2020-06-06-15:41:23:325973
+20200606154123325995011##24402205##2020-06-06-15:41:23:325973##01##1##16000##6144 without image is lpushed to redis
+20200606154123325995011##24402205##2020-06-06-15:41:23:325973##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:23:361372
+End Time: 2020-06-06-15:41:23:361436
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[73]
+Enter Lock Time: 2020-06-06-15:41:24:730456
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:24:739227
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[73]
+Enter Lock Time: 2020-06-06-15:41:24:794205
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:24:802758
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[74]
+Enter Lock Time: 2020-06-06-15:41:25:264804
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:25:271368
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[74]
+Enter Lock Time: 2020-06-06-15:41:25:331276
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:25:338603
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[75]
+Enter Lock Time: 2020-06-06-15:41:25:799788
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:25:806390
+store image into redis:2020-06-06-15:41:26:242392
+20200606154126242415012##24402205##2020-06-06-15:41:26:242392##01##2##16000##6144 without image is lpushed to redis
+20200606154126242415012##24402205##2020-06-06-15:41:26:242392##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:26:283169
+End Time: 2020-06-06-15:41:26:283228
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[75]
+Enter Lock Time: 2020-06-06-15:41:26:288438
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:26:298165
+store image into redis:2020-06-06-15:41:26:802657
+20200606154126802677011##24402205##2020-06-06-15:41:26:802657##01##1##16000##6144 without image is lpushed to redis
+20200606154126802677011##24402205##2020-06-06-15:41:26:802657##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:26:834664
+End Time: 2020-06-06-15:41:26:834745
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[76]
+Enter Lock Time: 2020-06-06-15:41:27:930740
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:27:938776
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[76]
+Enter Lock Time: 2020-06-06-15:41:27:994444
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:28:001993
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[77]
+Enter Lock Time: 2020-06-06-15:41:28:469637
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:28:477040
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[77]
+Enter Lock Time: 2020-06-06-15:41:28:534751
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:28:540778
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[78]
+Enter Lock Time: 2020-06-06-15:41:29:002956
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:29:009890
+store image into redis:2020-06-06-15:41:29:465403
+20200606154129465425012##24402205##2020-06-06-15:41:29:465403##01##2##16000##6144 without image is lpushed to redis
+20200606154129465425012##24402205##2020-06-06-15:41:29:465403##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:29:504727
+End Time: 2020-06-06-15:41:29:504792
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[78]
+Enter Lock Time: 2020-06-06-15:41:29:508489
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:29:521478
+store image into redis:2020-06-06-15:41:29:903969
+20200606154129903992011##24402205##2020-06-06-15:41:29:903969##01##1##16000##6144 without image is lpushed to redis
+20200606154129903992011##24402205##2020-06-06-15:41:29:903969##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:29:936132
+End Time: 2020-06-06-15:41:29:936206
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[79]
+Enter Lock Time: 2020-06-06-15:41:31:631607
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:31:640696
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[79]
+Enter Lock Time: 2020-06-06-15:41:31:694755
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:31:702098
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[80]
+Enter Lock Time: 2020-06-06-15:41:32:165714
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:32:172955
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[80]
+Enter Lock Time: 2020-06-06-15:41:32:227312
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:32:233641
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[81]
+Enter Lock Time: 2020-06-06-15:41:32:696626
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:32:703997
+store image into redis:2020-06-06-15:41:33:151721
+20200606154133151744012##24402205##2020-06-06-15:41:33:151721##01##2##16000##6144 without image is lpushed to redis
+20200606154133151744012##24402205##2020-06-06-15:41:33:151721##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:33:187137
+End Time: 2020-06-06-15:41:33:187200
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[81]
+Enter Lock Time: 2020-06-06-15:41:33:191080
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:33:200687
+store image into redis:2020-06-06-15:41:33:673768
+20200606154133673793011##24402205##2020-06-06-15:41:33:673768##01##1##16000##6144 without image is lpushed to redis
+20200606154133673793011##24402205##2020-06-06-15:41:33:673768##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:33:709374
+End Time: 2020-06-06-15:41:33:709443
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[82]
+Enter Lock Time: 2020-06-06-15:41:35:231603
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:35:238240
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[82]
+Enter Lock Time: 2020-06-06-15:41:35:294576
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:35:302169
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[83]
+Enter Lock Time: 2020-06-06-15:41:35:767827
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:35:774348
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[83]
+Enter Lock Time: 2020-06-06-15:41:35:833463
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:35:840170
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[84]
+Enter Lock Time: 2020-06-06-15:41:36:302976
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:36:309561
+store image into redis:2020-06-06-15:41:36:813183
+20200606154136813206012##24402205##2020-06-06-15:41:36:813183##01##2##16000##6144 without image is lpushed to redis
+20200606154136813206012##24402205##2020-06-06-15:41:36:813183##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:36:854827
+End Time: 2020-06-06-15:41:36:854887
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[84]
+Enter Lock Time: 2020-06-06-15:41:36:858358
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:36:867850
+store image into redis:2020-06-06-15:41:37:370476
+20200606154137370496011##24402205##2020-06-06-15:41:37:370476##01##1##16000##6144 without image is lpushed to redis
+20200606154137370496011##24402205##2020-06-06-15:41:37:370476##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:37:404937
+End Time: 2020-06-06-15:41:37:405006
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[85]
+Enter Lock Time: 2020-06-06-15:41:38:637402
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:38:644523
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[85]
+Enter Lock Time: 2020-06-06-15:41:38:694495
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:38:701182
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[86]
+Enter Lock Time: 2020-06-06-15:41:39:171054
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:39:177685
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[86]
+Enter Lock Time: 2020-06-06-15:41:39:227915
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:39:234328
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[87]
+Enter Lock Time: 2020-06-06-15:41:39:703075
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:39:709799
+store image into redis:2020-06-06-15:41:40:187036
+20200606154140187056012##24402205##2020-06-06-15:41:40:187036##01##2##16000##6144 without image is lpushed to redis
+20200606154140187056012##24402205##2020-06-06-15:41:40:187036##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:40:225035
+End Time: 2020-06-06-15:41:40:225093
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[87]
+Enter Lock Time: 2020-06-06-15:41:40:227388
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:40:235855
+store image into redis:2020-06-06-15:41:40:722614
+20200606154140722634011##24402205##2020-06-06-15:41:40:722614##01##1##16000##6144 without image is lpushed to redis
+20200606154140722634011##24402205##2020-06-06-15:41:40:722614##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:40:756729
+End Time: 2020-06-06-15:41:40:756789
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[88]
+Enter Lock Time: 2020-06-06-15:41:42:232165
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:42:238766
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[88]
+Enter Lock Time: 2020-06-06-15:41:42:294470
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:42:301917
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[89]
+Enter Lock Time: 2020-06-06-15:41:42:765015
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:42:771669
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[89]
+Enter Lock Time: 2020-06-06-15:41:42:825864
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:42:834692
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[90]
+Enter Lock Time: 2020-06-06-15:41:43:296820
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:43:303400
+store image into redis:2020-06-06-15:41:43:811719
+20200606154143811738012##24402205##2020-06-06-15:41:43:811719##01##2##16000##6144 without image is lpushed to redis
+20200606154143811738012##24402205##2020-06-06-15:41:43:811719##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:43:847942
+End Time: 2020-06-06-15:41:43:848004
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[90]
+Enter Lock Time: 2020-06-06-15:41:43:850985
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:43:861419
+store image into redis:2020-06-06-15:41:44:292133
+20200606154144292155011##24402205##2020-06-06-15:41:44:292133##01##1##16000##6144 without image is lpushed to redis
+20200606154144292155011##24402205##2020-06-06-15:41:44:292133##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:44:328039
+End Time: 2020-06-06-15:41:44:328091
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[91]
+Enter Lock Time: 2020-06-06-15:41:45:831443
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:45:838198
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[91]
+Enter Lock Time: 2020-06-06-15:41:45:894575
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:45:902181
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[92]
+Enter Lock Time: 2020-06-06-15:41:46:367400
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:46:373920
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[92]
+Enter Lock Time: 2020-06-06-15:41:46:435228
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:46:442185
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[93]
+Enter Lock Time: 2020-06-06-15:41:46:905702
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:46:912381
+store image into redis:2020-06-06-15:41:47:421888
+20200606154147421910012##24402205##2020-06-06-15:41:47:421888##01##2##16000##6144 without image is lpushed to redis
+20200606154147421910012##24402205##2020-06-06-15:41:47:421888##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:47:460773
+End Time: 2020-06-06-15:41:47:460837
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[93]
+Enter Lock Time: 2020-06-06-15:41:47:464495
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:47:474546
+store image into redis:2020-06-06-15:41:47:929404
+20200606154147929425011##24402205##2020-06-06-15:41:47:929404##01##1##16000##6144 without image is lpushed to redis
+20200606154147929425011##24402205##2020-06-06-15:41:47:929404##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:47:960368
+End Time: 2020-06-06-15:41:47:960486
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[94]
+Enter Lock Time: 2020-06-06-15:41:49:237263
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:49:246554
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[94]
+Enter Lock Time: 2020-06-06-15:41:49:295014
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:49:303805
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[95]
+Enter Lock Time: 2020-06-06-15:41:49:772305
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:49:779804
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[95]
+Enter Lock Time: 2020-06-06-15:41:49:826378
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:49:832877
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[96]
+Enter Lock Time: 2020-06-06-15:41:50:303325
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:50:309961
+store image into redis:2020-06-06-15:41:50:856824
+20200606154150856842012##24402205##2020-06-06-15:41:50:856824##01##2##16000##6144 without image is lpushed to redis
+20200606154150856842012##24402205##2020-06-06-15:41:50:856824##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:50:892945
+End Time: 2020-06-06-15:41:50:893006
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[96]
+Enter Lock Time: 2020-06-06-15:41:50:896209
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:50:905889
+store image into redis:2020-06-06-15:41:51:415900
+20200606154151415917011##24402205##2020-06-06-15:41:51:415900##01##1##16000##6144 without image is lpushed to redis
+20200606154151415917011##24402205##2020-06-06-15:41:51:415900##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:51:447545
+End Time: 2020-06-06-15:41:51:447610
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[97]
+Enter Lock Time: 2020-06-06-15:41:52:835910
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:52:842978
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[97]
+Enter Lock Time: 2020-06-06-15:41:52:898203
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:52:904810
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[98]
+Enter Lock Time: 2020-06-06-15:41:53:372155
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:53:378593
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[98]
+Enter Lock Time: 2020-06-06-15:41:53:435093
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:53:443386
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[99]
+Enter Lock Time: 2020-06-06-15:41:53:905725
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:53:912264
+store image into redis:2020-06-06-15:41:54:399176
+20200606154154399199012##24402205##2020-06-06-15:41:54:399176##01##2##16000##6144 without image is lpushed to redis
+20200606154154399199012##24402205##2020-06-06-15:41:54:399176##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:54:438847
+End Time: 2020-06-06-15:41:54:438908
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[99]
+Enter Lock Time: 2020-06-06-15:41:54:441533
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:54:452210
+store image into redis:2020-06-06-15:41:55:017604
+20200606154155017626011##24402205##2020-06-06-15:41:55:017604##01##1##16000##6144 without image is lpushed to redis
+20200606154155017626011##24402205##2020-06-06-15:41:55:017604##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:55:048516
+End Time: 2020-06-06-15:41:55:048567
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[100]
+Enter Lock Time: 2020-06-06-15:41:56:334899
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:56:342494
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[100]
+Enter Lock Time: 2020-06-06-15:41:56:395387
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:56:401961
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[101]
+Enter Lock Time: 2020-06-06-15:41:56:876550
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:41:56:883933
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[101]
+Enter Lock Time: 2020-06-06-15:41:56:936730
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:41:56:943907
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[102]
+Enter Lock Time: 2020-06-06-15:41:57:409291
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:41:57:415988
+store image into redis:2020-06-06-15:41:57:856229
+20200606154157856250012##24402205##2020-06-06-15:41:57:856229##01##2##16000##6144 without image is lpushed to redis
+20200606154157856250012##24402205##2020-06-06-15:41:57:856229##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:57:899411
+End Time: 2020-06-06-15:41:57:899474
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[102]
+Enter Lock Time: 2020-06-06-15:41:57:902681
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:41:57:910797
+store image into redis:2020-06-06-15:41:58:424660
+20200606154158424682011##24402205##2020-06-06-15:41:58:424660##01##1##16000##6144 without image is lpushed to redis
+20200606154158424682011##24402205##2020-06-06-15:41:58:424660##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:41:58:454459
+End Time: 2020-06-06-15:41:58:454570
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[103]
+Enter Lock Time: 2020-06-06-15:41:59:638534
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:41:59:650050
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[103]
+Enter Lock Time: 2020-06-06-15:41:59:695188
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:41:59:704868
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[104]
+Enter Lock Time: 2020-06-06-15:42:00:173539
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:42:00:180212
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[104]
+Enter Lock Time: 2020-06-06-15:42:00:231243
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:42:00:237602
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[105]
+Enter Lock Time: 2020-06-06-15:42:00:708044
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:42:00:715418
+store image into redis:2020-06-06-15:42:01:208324
+20200606154201208349012##24402205##2020-06-06-15:42:01:208324##01##2##16000##6144 without image is lpushed to redis
+20200606154201208349012##24402205##2020-06-06-15:42:01:208324##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:42:01:253809
+End Time: 2020-06-06-15:42:01:253877
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[105]
+Enter Lock Time: 2020-06-06-15:42:01:277901
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:42:01:297613
+store image into redis:2020-06-06-15:42:01:770527
+20200606154201770546011##24402205##2020-06-06-15:42:01:770527##01##1##16000##6144 without image is lpushed to redis
+20200606154201770546011##24402205##2020-06-06-15:42:01:770527##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:42:01:803232
+End Time: 2020-06-06-15:42:01:803289
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[106]
+Enter Lock Time: 2020-06-06-15:42:03:031257
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:42:03:042619
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[106]
+Enter Lock Time: 2020-06-06-15:42:03:095631
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:42:03:102135
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[107]
+Enter Lock Time: 2020-06-06-15:42:03:564924
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:42:03:572717
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[107]
+Enter Lock Time: 2020-06-06-15:42:03:631606
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:42:03:638986
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[108]
+Enter Lock Time: 2020-06-06-15:42:04:101396
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:42:04:110031
+store image into redis:2020-06-06-15:42:04:615276
+20200606154204615336012##24402205##2020-06-06-15:42:04:615276##01##2##16000##6144 without image is lpushed to redis
+20200606154204615336012##24402205##2020-06-06-15:42:04:615276##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:42:04:663067
+End Time: 2020-06-06-15:42:04:663173
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[108]
+Enter Lock Time: 2020-06-06-15:42:04:663482
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:42:04:672244
+store image into redis:2020-06-06-15:42:05:160112
+20200606154205160131011##24402205##2020-06-06-15:42:05:160112##01##1##16000##6144 without image is lpushed to redis
+20200606154205160131011##24402205##2020-06-06-15:42:05:160112##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:42:05:194088
+End Time: 2020-06-06-15:42:05:194138
+Machine stopped and reset camera_one_img_count and camera_two_img_count
+
+
+
+
+
+
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[109]
+Enter Lock Time: 2020-06-06-15:43:01:059854
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:01:071228
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[109]
+Enter Lock Time: 2020-06-06-15:43:01:122983
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:01:134791
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[110]
+Enter Lock Time: 2020-06-06-15:43:01:593990
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:01:603373
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[110]
+Enter Lock Time: 2020-06-06-15:43:01:654758
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:01:662689
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[111]
+Enter Lock Time: 2020-06-06-15:43:02:126535
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:02:137169
+store image into redis:2020-06-06-15:43:02:587154
+20200606154302587177012##24402205##2020-06-06-15:43:02:587154##01##2##16000##6144 without image is lpushed to redis
+20200606154302587177012##24402205##2020-06-06-15:43:02:587154##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:02:631781
+End Time: 2020-06-06-15:43:02:631835
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[111]
+Enter Lock Time: 2020-06-06-15:43:02:632210
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:02:642463
+store image into redis:2020-06-06-15:43:03:028188
+20200606154303028207011##24402205##2020-06-06-15:43:03:028188##01##1##16000##6144 without image is lpushed to redis
+20200606154303028207011##24402205##2020-06-06-15:43:03:028188##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:03:059552
+End Time: 2020-06-06-15:43:03:059624
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[112]
+Enter Lock Time: 2020-06-06-15:43:03:334303
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:03:342992
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[112]
+Enter Lock Time: 2020-06-06-15:43:03:394946
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:03:402483
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[113]
+Enter Lock Time: 2020-06-06-15:43:03:868292
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:03:875539
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[113]
+Enter Lock Time: 2020-06-06-15:43:03:927496
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:03:937465
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[114]
+Enter Lock Time: 2020-06-06-15:43:04:399324
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:04:407037
+store image into redis:2020-06-06-15:43:04:901889
+20200606154304901964012##24402205##2020-06-06-15:43:04:901889##01##2##16000##6144 without image is lpushed to redis
+20200606154304901964012##24402205##2020-06-06-15:43:04:901889##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:04:939564
+End Time: 2020-06-06-15:43:04:939621
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[114]
+Enter Lock Time: 2020-06-06-15:43:04:939821
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:04:948037
+store image into redis:2020-06-06-15:43:05:380078
+20200606154305380098011##24402205##2020-06-06-15:43:05:380078##01##1##16000##6144 without image is lpushed to redis
+20200606154305380098011##24402205##2020-06-06-15:43:05:380078##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:05:410289
+End Time: 2020-06-06-15:43:05:410344
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[115]
+Enter Lock Time: 2020-06-06-15:43:07:830647
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:07:838774
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[115]
+Enter Lock Time: 2020-06-06-15:43:07:894681
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:07:901908
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[116]
+Enter Lock Time: 2020-06-06-15:43:08:365549
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:08:372444
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[116]
+Enter Lock Time: 2020-06-06-15:43:08:426955
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:08:433484
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[117]
+Enter Lock Time: 2020-06-06-15:43:08:896194
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:08:905080
+store image into redis:2020-06-06-15:43:09:378074
+20200606154309378094012##24402205##2020-06-06-15:43:09:378074##01##2##16000##6144 without image is lpushed to redis
+20200606154309378094012##24402205##2020-06-06-15:43:09:378074##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:09:419858
+End Time: 2020-06-06-15:43:09:419917
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[117]
+Enter Lock Time: 2020-06-06-15:43:09:421219
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:09:430407
+store image into redis:2020-06-06-15:43:09:872202
+20200606154309872225011##24402205##2020-06-06-15:43:09:872202##01##1##16000##6144 without image is lpushed to redis
+20200606154309872225011##24402205##2020-06-06-15:43:09:872202##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:09:905799
+End Time: 2020-06-06-15:43:09:905865
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[118]
+Enter Lock Time: 2020-06-06-15:43:11:334020
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:11:340934
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[118]
+Enter Lock Time: 2020-06-06-15:43:11:394565
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:11:401695
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[119]
+Enter Lock Time: 2020-06-06-15:43:11:872625
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:11:879066
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[119]
+Enter Lock Time: 2020-06-06-15:43:11:931641
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:11:938077
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[120]
+Enter Lock Time: 2020-06-06-15:43:12:403737
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:12:410435
+store image into redis:2020-06-06-15:43:12:844419
+20200606154312844440012##24402205##2020-06-06-15:43:12:844419##01##2##16000##6144 without image is lpushed to redis
+20200606154312844440012##24402205##2020-06-06-15:43:12:844419##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:12:887488
+End Time: 2020-06-06-15:43:12:887599
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[120]
+Enter Lock Time: 2020-06-06-15:43:12:887854
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:12:900285
+store image into redis:2020-06-06-15:43:13:361584
+20200606154313361609011##24402205##2020-06-06-15:43:13:361584##01##1##16000##6144 without image is lpushed to redis
+20200606154313361609011##24402205##2020-06-06-15:43:13:361584##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:13:398474
+End Time: 2020-06-06-15:43:13:398534
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[121]
+Enter Lock Time: 2020-06-06-15:43:14:932657
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:14:939339
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[121]
+Enter Lock Time: 2020-06-06-15:43:14:994273
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:15:002206
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[122]
+Enter Lock Time: 2020-06-06-15:43:15:469228
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:15:478022
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[122]
+Enter Lock Time: 2020-06-06-15:43:15:532689
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:15:540170
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[123]
+Enter Lock Time: 2020-06-06-15:43:16:003547
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:16:010154
+store image into redis:2020-06-06-15:43:16:490318
+20200606154316490338012##24402205##2020-06-06-15:43:16:490318##01##2##16000##6144 without image is lpushed to redis
+20200606154316490338012##24402205##2020-06-06-15:43:16:490318##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:16:530765
+End Time: 2020-06-06-15:43:16:530825
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[123]
+Enter Lock Time: 2020-06-06-15:43:16:532517
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:16:544844
+store image into redis:2020-06-06-15:43:17:022689
+20200606154317022708011##24402205##2020-06-06-15:43:17:022689##01##1##16000##6144 without image is lpushed to redis
+20200606154317022708011##24402205##2020-06-06-15:43:17:022689##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:17:053290
+End Time: 2020-06-06-15:43:17:053344
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[124]
+Enter Lock Time: 2020-06-06-15:43:18:334520
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:18:341575
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[124]
+Enter Lock Time: 2020-06-06-15:43:18:396260
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:18:404028
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[125]
+Enter Lock Time: 2020-06-06-15:43:18:868174
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:18:874717
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[125]
+Enter Lock Time: 2020-06-06-15:43:18:928571
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:18:936415
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[126]
+Enter Lock Time: 2020-06-06-15:43:19:399617
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:19:408557
+store image into redis:2020-06-06-15:43:19:888072
+20200606154319888094012##24402205##2020-06-06-15:43:19:888072##01##2##16000##6144 without image is lpushed to redis
+20200606154319888094012##24402205##2020-06-06-15:43:19:888072##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:19:927434
+End Time: 2020-06-06-15:43:19:927537
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[126]
+Enter Lock Time: 2020-06-06-15:43:19:928043
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:19:937323
+store image into redis:2020-06-06-15:43:20:463194
+20200606154320463217011##24402205##2020-06-06-15:43:20:463194##01##1##16000##6144 without image is lpushed to redis
+20200606154320463217011##24402205##2020-06-06-15:43:20:463194##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:20:521381
+End Time: 2020-06-06-15:43:20:521433
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[127]
+Enter Lock Time: 2020-06-06-15:43:21:936966
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:21:944683
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[127]
+Enter Lock Time: 2020-06-06-15:43:21:994123
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:22:001204
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[128]
+Enter Lock Time: 2020-06-06-15:43:22:471853
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:22:480036
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[128]
+Enter Lock Time: 2020-06-06-15:43:22:526966
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:22:534588
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[129]
+Enter Lock Time: 2020-06-06-15:43:23:002515
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:23:010460
+store image into redis:2020-06-06-15:43:23:463600
+20200606154323463624012##24402205##2020-06-06-15:43:23:463600##01##2##16000##6144 without image is lpushed to redis
+20200606154323463624012##24402205##2020-06-06-15:43:23:463600##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:23:501940
+End Time: 2020-06-06-15:43:23:502025
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[129]
+Enter Lock Time: 2020-06-06-15:43:23:507304
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:23:516797
+store image into redis:2020-06-06-15:43:24:068020
+20200606154324068044011##24402205##2020-06-06-15:43:24:068020##01##1##16000##6144 without image is lpushed to redis
+20200606154324068044011##24402205##2020-06-06-15:43:24:068020##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:24:098787
+End Time: 2020-06-06-15:43:24:098873
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[130]
+Enter Lock Time: 2020-06-06-15:43:25:431443
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:25:441241
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[130]
+Enter Lock Time: 2020-06-06-15:43:25:495023
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:25:501545
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[131]
+Enter Lock Time: 2020-06-06-15:43:25:968018
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:25:975878
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[131]
+Enter Lock Time: 2020-06-06-15:43:26:035716
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:26:042175
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[132]
+Enter Lock Time: 2020-06-06-15:43:26:504576
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:26:513284
+store image into redis:2020-06-06-15:43:26:987430
+20200606154326987459012##24402205##2020-06-06-15:43:26:987430##01##2##16000##6144 without image is lpushed to redis
+20200606154326987459012##24402205##2020-06-06-15:43:26:987430##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:27:038860
+End Time: 2020-06-06-15:43:27:038921
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[132]
+Enter Lock Time: 2020-06-06-15:43:27:061758
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:27:068672
+store image into redis:2020-06-06-15:43:27:577683
+20200606154327577704011##24402205##2020-06-06-15:43:27:577683##01##1##16000##6144 without image is lpushed to redis
+20200606154327577704011##24402205##2020-06-06-15:43:27:577683##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:27:611424
+End Time: 2020-06-06-15:43:27:611506
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[133]
+Enter Lock Time: 2020-06-06-15:43:28:834622
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:28:844656
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[133]
+Enter Lock Time: 2020-06-06-15:43:28:896339
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:28:902787
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[134]
+Enter Lock Time: 2020-06-06-15:43:29:371639
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:29:378096
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[134]
+Enter Lock Time: 2020-06-06-15:43:29:436253
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:29:443350
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[135]
+Enter Lock Time: 2020-06-06-15:43:29:907695
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:29:914357
+store image into redis:2020-06-06-15:43:30:486021
+20200606154330486044012##24402205##2020-06-06-15:43:30:486021##01##2##16000##6144 without image is lpushed to redis
+20200606154330486044012##24402205##2020-06-06-15:43:30:486021##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:30:523347
+End Time: 2020-06-06-15:43:30:523399
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[135]
+Enter Lock Time: 2020-06-06-15:43:30:527084
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:30:537247
+store image into redis:2020-06-06-15:43:30:966471
+20200606154330966492011##24402205##2020-06-06-15:43:30:966471##01##1##16000##6144 without image is lpushed to redis
+20200606154330966492011##24402205##2020-06-06-15:43:30:966471##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:30:996327
+End Time: 2020-06-06-15:43:30:996375
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[136]
+Enter Lock Time: 2020-06-06-15:43:32:136998
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:32:147575
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[136]
+Enter Lock Time: 2020-06-06-15:43:32:194516
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:32:206715
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[137]
+Enter Lock Time: 2020-06-06-15:43:32:673806
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:32:681295
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[137]
+Enter Lock Time: 2020-06-06-15:43:32:736387
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:32:742807
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[138]
+Enter Lock Time: 2020-06-06-15:43:33:212106
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:33:218733
+store image into redis:2020-06-06-15:43:33:713720
+20200606154333713747012##24402205##2020-06-06-15:43:33:713720##01##2##16000##6144 without image is lpushed to redis
+20200606154333713747012##24402205##2020-06-06-15:43:33:713720##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:33:755374
+End Time: 2020-06-06-15:43:33:755433
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[138]
+Enter Lock Time: 2020-06-06-15:43:33:762996
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:33:774183
+store image into redis:2020-06-06-15:43:34:289545
+20200606154334289565011##24402205##2020-06-06-15:43:34:289545##01##1##16000##6144 without image is lpushed to redis
+20200606154334289565011##24402205##2020-06-06-15:43:34:289545##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:34:319399
+End Time: 2020-06-06-15:43:34:319492
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[139]
+Enter Lock Time: 2020-06-06-15:43:35:531962
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:35:540549
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[139]
+Enter Lock Time: 2020-06-06-15:43:35:594667
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:35:601162
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[140]
+Enter Lock Time: 2020-06-06-15:43:36:066716
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:36:073607
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[140]
+Enter Lock Time: 2020-06-06-15:43:36:126320
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:36:132763
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[141]
+Enter Lock Time: 2020-06-06-15:43:36:596434
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:36:606478
+store image into redis:2020-06-06-15:43:37:033874
+20200606154337033897012##24402205##2020-06-06-15:43:37:033874##01##2##16000##6144 without image is lpushed to redis
+20200606154337033897012##24402205##2020-06-06-15:43:37:033874##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:37:078482
+End Time: 2020-06-06-15:43:37:078544
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[141]
+Enter Lock Time: 2020-06-06-15:43:37:080413
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:37:088244
+store image into redis:2020-06-06-15:43:37:670149
+20200606154337670172011##24402205##2020-06-06-15:43:37:670149##01##1##16000##6144 without image is lpushed to redis
+20200606154337670172011##24402205##2020-06-06-15:43:37:670149##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:37:702850
+End Time: 2020-06-06-15:43:37:702903
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[142]
+Enter Lock Time: 2020-06-06-15:43:39:031868
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:39:039904
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[142]
+Enter Lock Time: 2020-06-06-15:43:39:095527
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:39:102217
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[143]
+Enter Lock Time: 2020-06-06-15:43:39:564075
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:39:570556
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[143]
+Enter Lock Time: 2020-06-06-15:43:39:628667
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:39:635941
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[144]
+Enter Lock Time: 2020-06-06-15:43:40:096705
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:40:103335
+store image into redis:2020-06-06-15:43:40:591860
+20200606154340591883012##24402205##2020-06-06-15:43:40:591860##01##2##16000##6144 without image is lpushed to redis
+20200606154340591883012##24402205##2020-06-06-15:43:40:591860##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:40:629234
+End Time: 2020-06-06-15:43:40:629320
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[144]
+Enter Lock Time: 2020-06-06-15:43:40:633140
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:40:645702
+store image into redis:2020-06-06-15:43:41:080610
+20200606154341080632011##24402205##2020-06-06-15:43:41:080610##01##1##16000##6144 without image is lpushed to redis
+20200606154341080632011##24402205##2020-06-06-15:43:41:080610##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:41:113112
+End Time: 2020-06-06-15:43:41:113178
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[145]
+Enter Lock Time: 2020-06-06-15:43:42:536316
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:42:542874
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[145]
+Enter Lock Time: 2020-06-06-15:43:42:593888
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:42:601223
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[146]
+Enter Lock Time: 2020-06-06-15:43:43:075478
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:43:083190
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[146]
+Enter Lock Time: 2020-06-06-15:43:43:135048
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:43:142252
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[147]
+Enter Lock Time: 2020-06-06-15:43:43:611138
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:43:617677
+store image into redis:2020-06-06-15:43:44:090400
+20200606154344090422012##24402205##2020-06-06-15:43:44:090400##01##2##16000##6144 without image is lpushed to redis
+20200606154344090422012##24402205##2020-06-06-15:43:44:090400##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:44:131767
+End Time: 2020-06-06-15:43:44:131819
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[147]
+Enter Lock Time: 2020-06-06-15:43:44:135374
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:44:145644
+store image into redis:2020-06-06-15:43:44:626088
+20200606154344626109011##24402205##2020-06-06-15:43:44:626088##01##1##16000##6144 without image is lpushed to redis
+20200606154344626109011##24402205##2020-06-06-15:43:44:626088##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:44:663870
+End Time: 2020-06-06-15:43:44:663939
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[148]
+Enter Lock Time: 2020-06-06-15:43:45:938313
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:45:945033
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[148]
+Enter Lock Time: 2020-06-06-15:43:45:995615
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:46:005280
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[149]
+Enter Lock Time: 2020-06-06-15:43:46:471841
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:46:480550
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[149]
+Enter Lock Time: 2020-06-06-15:43:46:527345
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:46:533655
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[150]
+Enter Lock Time: 2020-06-06-15:43:47:002918
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:47:009647
+store image into redis:2020-06-06-15:43:47:452263
+20200606154347452287012##24402205##2020-06-06-15:43:47:452263##01##2##16000##6144 without image is lpushed to redis
+20200606154347452287012##24402205##2020-06-06-15:43:47:452263##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:47:489105
+End Time: 2020-06-06-15:43:47:489168
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[150]
+Enter Lock Time: 2020-06-06-15:43:47:491797
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:47:499979
+store image into redis:2020-06-06-15:43:48:006779
+20200606154348006802011##24402205##2020-06-06-15:43:48:006779##01##1##16000##6144 without image is lpushed to redis
+20200606154348006802011##24402205##2020-06-06-15:43:48:006779##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:48:041527
+End Time: 2020-06-06-15:43:48:041593
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[151]
+Enter Lock Time: 2020-06-06-15:43:49:540886
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:49:550081
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[151]
+Enter Lock Time: 2020-06-06-15:43:49:603476
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:49:611043
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[152]
+Enter Lock Time: 2020-06-06-15:43:50:076227
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:50:082915
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[152]
+Enter Lock Time: 2020-06-06-15:43:50:137436
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:50:143742
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[153]
+Enter Lock Time: 2020-06-06-15:43:50:606705
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:50:614144
+store image into redis:2020-06-06-15:43:51:136743
+20200606154351136768012##24402205##2020-06-06-15:43:51:136743##01##2##16000##6144 without image is lpushed to redis
+20200606154351136768012##24402205##2020-06-06-15:43:51:136743##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:51:177911
+End Time: 2020-06-06-15:43:51:177970
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[153]
+Enter Lock Time: 2020-06-06-15:43:51:196741
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:51:204033
+store image into redis:2020-06-06-15:43:51:622220
+20200606154351622239011##24402205##2020-06-06-15:43:51:622220##01##1##16000##6144 without image is lpushed to redis
+20200606154351622239011##24402205##2020-06-06-15:43:51:622220##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:51:658611
+End Time: 2020-06-06-15:43:51:658667
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[154]
+Enter Lock Time: 2020-06-06-15:43:52:737795
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:52:747310
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[154]
+Enter Lock Time: 2020-06-06-15:43:52:793805
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:52:803271
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[155]
+Enter Lock Time: 2020-06-06-15:43:53:280930
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:53:287339
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[155]
+Enter Lock Time: 2020-06-06-15:43:53:335801
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:53:342907
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[156]
+Enter Lock Time: 2020-06-06-15:43:53:811962
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:53:818998
+store image into redis:2020-06-06-15:43:54:246640
+20200606154354246662012##24402205##2020-06-06-15:43:54:246640##01##2##16000##6144 without image is lpushed to redis
+20200606154354246662012##24402205##2020-06-06-15:43:54:246640##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:54:281548
+End Time: 2020-06-06-15:43:54:281607
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[156]
+Enter Lock Time: 2020-06-06-15:43:54:284946
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:54:294917
+store image into redis:2020-06-06-15:43:54:816732
+20200606154354816759011##24402205##2020-06-06-15:43:54:816732##01##1##16000##6144 without image is lpushed to redis
+20200606154354816759011##24402205##2020-06-06-15:43:54:816732##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:54:848492
+End Time: 2020-06-06-15:43:54:848567
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[157]
+Enter Lock Time: 2020-06-06-15:43:56:233735
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:56:241264
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[157]
+Enter Lock Time: 2020-06-06-15:43:56:295693
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:56:304906
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[158]
+Enter Lock Time: 2020-06-06-15:43:56:766528
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:43:56:774640
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[158]
+Enter Lock Time: 2020-06-06-15:43:56:825967
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:43:56:832861
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[159]
+Enter Lock Time: 2020-06-06-15:43:57:298726
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:43:57:305386
+store image into redis:2020-06-06-15:43:57:771743
+20200606154357771771012##24402205##2020-06-06-15:43:57:771743##01##2##16000##6144 without image is lpushed to redis
+20200606154357771771012##24402205##2020-06-06-15:43:57:771743##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:57:817363
+End Time: 2020-06-06-15:43:57:817426
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[159]
+Enter Lock Time: 2020-06-06-15:43:57:823973
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:43:57:831997
+store image into redis:2020-06-06-15:43:58:330767
+20200606154358330787011##24402205##2020-06-06-15:43:58:330767##01##1##16000##6144 without image is lpushed to redis
+20200606154358330787011##24402205##2020-06-06-15:43:58:330767##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:43:58:363666
+End Time: 2020-06-06-15:43:58:363718
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[160]
+Enter Lock Time: 2020-06-06-15:43:59:631399
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:43:59:640258
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[160]
+Enter Lock Time: 2020-06-06-15:43:59:695232
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:43:59:704211
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[161]
+Enter Lock Time: 2020-06-06-15:44:00:167112
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:00:174756
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[161]
+Enter Lock Time: 2020-06-06-15:44:00:237796
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:00:244154
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[162]
+Enter Lock Time: 2020-06-06-15:44:00:708256
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:00:717005
+store image into redis:2020-06-06-15:44:01:256811
+20200606154401256837012##24402205##2020-06-06-15:44:01:256811##01##2##16000##6144 without image is lpushed to redis
+20200606154401256837012##24402205##2020-06-06-15:44:01:256811##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:01:298140
+End Time: 2020-06-06-15:44:01:298201
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[162]
+Enter Lock Time: 2020-06-06-15:44:01:301529
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:01:311904
+store image into redis:2020-06-06-15:44:01:727213
+20200606154401727233011##24402205##2020-06-06-15:44:01:727213##01##1##16000##6144 without image is lpushed to redis
+20200606154401727233011##24402205##2020-06-06-15:44:01:727213##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:01:763561
+End Time: 2020-06-06-15:44:01:763609
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[163]
+Enter Lock Time: 2020-06-06-15:44:02:838883
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:02:849159
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[163]
+Enter Lock Time: 2020-06-06-15:44:02:895295
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:02:902397
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[164]
+Enter Lock Time: 2020-06-06-15:44:03:373549
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:03:380023
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[164]
+Enter Lock Time: 2020-06-06-15:44:03:427527
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:03:435755
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[165]
+Enter Lock Time: 2020-06-06-15:44:03:904530
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:03:911344
+store image into redis:2020-06-06-15:44:04:376376
+20200606154404376399012##24402205##2020-06-06-15:44:04:376376##01##2##16000##6144 without image is lpushed to redis
+20200606154404376399012##24402205##2020-06-06-15:44:04:376376##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:04:414717
+End Time: 2020-06-06-15:44:04:414780
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[165]
+Enter Lock Time: 2020-06-06-15:44:04:417944
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:04:428300
+store image into redis:2020-06-06-15:44:04:921626
+20200606154404921647011##24402205##2020-06-06-15:44:04:921626##01##1##16000##6144 without image is lpushed to redis
+20200606154404921647011##24402205##2020-06-06-15:44:04:921626##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:04:955331
+End Time: 2020-06-06-15:44:04:955404
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[166]
+Enter Lock Time: 2020-06-06-15:44:06:433393
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:06:441815
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[166]
+Enter Lock Time: 2020-06-06-15:44:06:497012
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:06:506176
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[167]
+Enter Lock Time: 2020-06-06-15:44:06:967015
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:06:975011
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[167]
+Enter Lock Time: 2020-06-06-15:44:07:029185
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:07:036556
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[168]
+Enter Lock Time: 2020-06-06-15:44:07:499816
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:07:506391
+store image into redis:2020-06-06-15:44:08:147128
+20200606154408147152012##24402205##2020-06-06-15:44:08:147128##01##2##16000##6144 without image is lpushed to redis
+20200606154408147152012##24402205##2020-06-06-15:44:08:147128##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:08:195936
+End Time: 2020-06-06-15:44:08:195993
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[168]
+Enter Lock Time: 2020-06-06-15:44:08:199711
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:08:210470
+store image into redis:2020-06-06-15:44:08:548412
+20200606154408548431011##24402205##2020-06-06-15:44:08:548412##01##1##16000##6144 without image is lpushed to redis
+20200606154408548431011##24402205##2020-06-06-15:44:08:548412##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:08:578363
+End Time: 2020-06-06-15:44:08:578404
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[169]
+Enter Lock Time: 2020-06-06-15:44:09:531132
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:09:540140
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[169]
+Enter Lock Time: 2020-06-06-15:44:09:594827
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:09:601817
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[170]
+Enter Lock Time: 2020-06-06-15:44:10:065054
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:10:073148
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[170]
+Enter Lock Time: 2020-06-06-15:44:10:127179
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:10:133600
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[171]
+Enter Lock Time: 2020-06-06-15:44:10:595705
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:10:602480
+store image into redis:2020-06-06-15:44:11:182299
+20200606154411182323012##24402205##2020-06-06-15:44:11:182299##01##2##16000##6144 without image is lpushed to redis
+20200606154411182323012##24402205##2020-06-06-15:44:11:182299##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:11:233235
+End Time: 2020-06-06-15:44:11:233315
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[171]
+Enter Lock Time: 2020-06-06-15:44:11:275350
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:11:289434
+store image into redis:2020-06-06-15:44:11:800993
+20200606154411801012011##24402205##2020-06-06-15:44:11:800993##01##1##16000##6144 without image is lpushed to redis
+20200606154411801012011##24402205##2020-06-06-15:44:11:800993##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:11:830577
+End Time: 2020-06-06-15:44:11:830615
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[172]
+Enter Lock Time: 2020-06-06-15:44:13:037851
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:13:045774
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[172]
+Enter Lock Time: 2020-06-06-15:44:13:094121
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:13:102975
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[173]
+Enter Lock Time: 2020-06-06-15:44:13:575146
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:13:582915
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[173]
+Enter Lock Time: 2020-06-06-15:44:13:637172
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:13:645971
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[174]
+Enter Lock Time: 2020-06-06-15:44:14:114493
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:14:121562
+store image into redis:2020-06-06-15:44:14:569603
+20200606154414569632012##24402205##2020-06-06-15:44:14:569603##01##2##16000##6144 without image is lpushed to redis
+20200606154414569632012##24402205##2020-06-06-15:44:14:569603##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:14:612534
+End Time: 2020-06-06-15:44:14:612599
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[174]
+Enter Lock Time: 2020-06-06-15:44:14:645888
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:14:653895
+store image into redis:2020-06-06-15:44:15:159749
+20200606154415159769011##24402205##2020-06-06-15:44:15:159749##01##1##16000##6144 without image is lpushed to redis
+20200606154415159769011##24402205##2020-06-06-15:44:15:159749##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:15:186367
+End Time: 2020-06-06-15:44:15:186410
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[175]
+Enter Lock Time: 2020-06-06-15:44:16:435161
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:16:445626
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[175]
+Enter Lock Time: 2020-06-06-15:44:16:495310
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:16:504279
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[176]
+Enter Lock Time: 2020-06-06-15:44:16:975881
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:16:983088
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[176]
+Enter Lock Time: 2020-06-06-15:44:17:036655
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:17:043321
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[177]
+Enter Lock Time: 2020-06-06-15:44:17:509138
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:17:516525
+store image into redis:2020-06-06-15:44:18:007804
+20200606154418007826012##24402205##2020-06-06-15:44:18:007804##01##2##16000##6144 without image is lpushed to redis
+20200606154418007826012##24402205##2020-06-06-15:44:18:007804##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:18:047763
+End Time: 2020-06-06-15:44:18:047875
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[177]
+Enter Lock Time: 2020-06-06-15:44:18:051820
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:18:059964
+store image into redis:2020-06-06-15:44:18:576582
+20200606154418576605011##24402205##2020-06-06-15:44:18:576582##01##1##16000##6144 without image is lpushed to redis
+20200606154418576605011##24402205##2020-06-06-15:44:18:576582##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:18:605308
+End Time: 2020-06-06-15:44:18:605402
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[178]
+Enter Lock Time: 2020-06-06-15:44:19:933838
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:19:941889
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[178]
+Enter Lock Time: 2020-06-06-15:44:19:995408
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:20:004445
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[179]
+Enter Lock Time: 2020-06-06-15:44:20:470526
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:20:478468
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[179]
+Enter Lock Time: 2020-06-06-15:44:20:535997
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:20:543143
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[180]
+Enter Lock Time: 2020-06-06-15:44:21:007610
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:21:015237
+store image into redis:2020-06-06-15:44:21:462356
+20200606154421462378012##24402205##2020-06-06-15:44:21:462356##01##2##16000##6144 without image is lpushed to redis
+20200606154421462378012##24402205##2020-06-06-15:44:21:462356##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:21:497592
+End Time: 2020-06-06-15:44:21:497643
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[180]
+Enter Lock Time: 2020-06-06-15:44:21:501232
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:21:511537
+store image into redis:2020-06-06-15:44:22:019751
+20200606154422019775011##24402205##2020-06-06-15:44:22:019751##01##1##16000##6144 without image is lpushed to redis
+20200606154422019775011##24402205##2020-06-06-15:44:22:019751##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:22:054440
+End Time: 2020-06-06-15:44:22:054496
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[181]
+Enter Lock Time: 2020-06-06-15:44:23:439741
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:23:446877
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[181]
+Enter Lock Time: 2020-06-06-15:44:23:494810
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:23:501369
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[182]
+Enter Lock Time: 2020-06-06-15:44:23:979278
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:23:985259
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[182]
+Enter Lock Time: 2020-06-06-15:44:24:032203
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:24:038593
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[183]
+Enter Lock Time: 2020-06-06-15:44:24:509278
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:24:517028
+store image into redis:2020-06-06-15:44:24:976509
+20200606154424976529012##24402205##2020-06-06-15:44:24:976509##01##2##16000##6144 without image is lpushed to redis
+20200606154424976529012##24402205##2020-06-06-15:44:24:976509##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:25:019036
+End Time: 2020-06-06-15:44:25:019097
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[183]
+Enter Lock Time: 2020-06-06-15:44:25:020810
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:25:030163
+store image into redis:2020-06-06-15:44:25:583675
+20200606154425583694011##24402205##2020-06-06-15:44:25:583675##01##1##16000##6144 without image is lpushed to redis
+20200606154425583694011##24402205##2020-06-06-15:44:25:583675##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:25:616694
+End Time: 2020-06-06-15:44:25:616781
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[184]
+Enter Lock Time: 2020-06-06-15:44:26:837087
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:26:846006
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[184]
+Enter Lock Time: 2020-06-06-15:44:26:895853
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:26:902507
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[185]
+Enter Lock Time: 2020-06-06-15:44:27:370668
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:27:379166
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[185]
+Enter Lock Time: 2020-06-06-15:44:27:426773
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:27:433188
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[186]
+Enter Lock Time: 2020-06-06-15:44:27:902002
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:27:908642
+store image into redis:2020-06-06-15:44:28:432924
+20200606154428432949012##24402205##2020-06-06-15:44:28:432924##01##2##16000##6144 without image is lpushed to redis
+20200606154428432949012##24402205##2020-06-06-15:44:28:432924##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:28:479299
+End Time: 2020-06-06-15:44:28:479356
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[186]
+Enter Lock Time: 2020-06-06-15:44:28:479716
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:28:489650
+store image into redis:2020-06-06-15:44:28:964127
+20200606154428964148011##24402205##2020-06-06-15:44:28:964127##01##1##16000##6144 without image is lpushed to redis
+20200606154428964148011##24402205##2020-06-06-15:44:28:964127##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:28:998778
+End Time: 2020-06-06-15:44:28:998830
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[187]
+Enter Lock Time: 2020-06-06-15:44:30:132838
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:30:139989
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[187]
+Enter Lock Time: 2020-06-06-15:44:30:195477
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:30:202955
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[188]
+Enter Lock Time: 2020-06-06-15:44:30:672353
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:30:679262
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[188]
+Enter Lock Time: 2020-06-06-15:44:30:737401
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:30:743785
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[189]
+Enter Lock Time: 2020-06-06-15:44:31:205298
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:31:214176
+store image into redis:2020-06-06-15:44:31:696733
+20200606154431696756012##24402205##2020-06-06-15:44:31:696733##01##2##16000##6144 without image is lpushed to redis
+20200606154431696756012##24402205##2020-06-06-15:44:31:696733##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:31:743179
+End Time: 2020-06-06-15:44:31:743235
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[189]
+Enter Lock Time: 2020-06-06-15:44:31:746623
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:31:756116
+store image into redis:2020-06-06-15:44:32:333832
+20200606154432333856011##24402205##2020-06-06-15:44:32:333832##01##1##16000##6144 without image is lpushed to redis
+20200606154432333856011##24402205##2020-06-06-15:44:32:333832##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:32:372564
+End Time: 2020-06-06-15:44:32:372621
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[190]
+Enter Lock Time: 2020-06-06-15:44:33:738557
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:33:746257
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[190]
+Enter Lock Time: 2020-06-06-15:44:33:794162
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:33:800743
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[191]
+Enter Lock Time: 2020-06-06-15:44:34:277231
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:34:283648
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[191]
+Enter Lock Time: 2020-06-06-15:44:34:334621
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:34:341396
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[192]
+Enter Lock Time: 2020-06-06-15:44:34:810242
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:34:817815
+store image into redis:2020-06-06-15:44:35:372638
+20200606154435372659012##24402205##2020-06-06-15:44:35:372638##01##2##16000##6144 without image is lpushed to redis
+20200606154435372659012##24402205##2020-06-06-15:44:35:372638##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:35:406611
+End Time: 2020-06-06-15:44:35:406680
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[192]
+Enter Lock Time: 2020-06-06-15:44:35:410490
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:35:420185
+store image into redis:2020-06-06-15:44:35:930645
+20200606154435930667011##24402205##2020-06-06-15:44:35:930645##01##1##16000##6144 without image is lpushed to redis
+20200606154435930667011##24402205##2020-06-06-15:44:35:930645##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:35:962859
+End Time: 2020-06-06-15:44:35:962918
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[193]
+Enter Lock Time: 2020-06-06-15:44:37:331691
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:37:338375
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[193]
+Enter Lock Time: 2020-06-06-15:44:37:394693
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:37:403045
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[194]
+Enter Lock Time: 2020-06-06-15:44:37:865709
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:37:872460
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[194]
+Enter Lock Time: 2020-06-06-15:44:37:930038
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:37:936467
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[195]
+Enter Lock Time: 2020-06-06-15:44:38:400898
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:38:407646
+store image into redis:2020-06-06-15:44:38:865309
+20200606154438865330012##24402205##2020-06-06-15:44:38:865309##01##2##16000##6144 without image is lpushed to redis
+20200606154438865330012##24402205##2020-06-06-15:44:38:865309##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:38:908127
+End Time: 2020-06-06-15:44:38:908243
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[195]
+Enter Lock Time: 2020-06-06-15:44:38:909692
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:38:919898
+store image into redis:2020-06-06-15:44:39:418285
+20200606154439418313011##24402205##2020-06-06-15:44:39:418285##01##1##16000##6144 without image is lpushed to redis
+20200606154439418313011##24402205##2020-06-06-15:44:39:418285##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:39:450743
+End Time: 2020-06-06-15:44:39:450803
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[196]
+Enter Lock Time: 2020-06-06-15:44:40:831872
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:40:841044
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[196]
+Enter Lock Time: 2020-06-06-15:44:40:894482
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:40:900970
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[197]
+Enter Lock Time: 2020-06-06-15:44:41:367718
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:41:374654
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[197]
+Enter Lock Time: 2020-06-06-15:44:41:436231
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:41:442538
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[198]
+Enter Lock Time: 2020-06-06-15:44:41:905862
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:41:912424
+store image into redis:2020-06-06-15:44:42:444748
+20200606154442444770012##24402205##2020-06-06-15:44:42:444748##01##2##16000##6144 without image is lpushed to redis
+20200606154442444770012##24402205##2020-06-06-15:44:42:444748##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:42:484306
+End Time: 2020-06-06-15:44:42:484370
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[198]
+Enter Lock Time: 2020-06-06-15:44:42:487731
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:42:496074
+store image into redis:2020-06-06-15:44:43:030364
+20200606154443030382011##24402205##2020-06-06-15:44:43:030364##01##1##16000##6144 without image is lpushed to redis
+20200606154443030382011##24402205##2020-06-06-15:44:43:030364##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:43:067870
+End Time: 2020-06-06-15:44:43:067934
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[199]
+Enter Lock Time: 2020-06-06-15:44:44:331219
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:44:339332
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[199]
+Enter Lock Time: 2020-06-06-15:44:44:393942
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:44:400612
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[200]
+Enter Lock Time: 2020-06-06-15:44:44:865671
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:44:872520
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[200]
+Enter Lock Time: 2020-06-06-15:44:44:927175
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:44:934686
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[201]
+Enter Lock Time: 2020-06-06-15:44:45:396545
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:45:405280
+store image into redis:2020-06-06-15:44:45:861857
+20200606154445861882012##24402205##2020-06-06-15:44:45:861857##01##2##16000##6144 without image is lpushed to redis
+20200606154445861882012##24402205##2020-06-06-15:44:45:861857##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:45:902010
+End Time: 2020-06-06-15:44:45:902055
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[201]
+Enter Lock Time: 2020-06-06-15:44:45:905673
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:45:915926
+store image into redis:2020-06-06-15:44:46:325652
+20200606154446325675011##24402205##2020-06-06-15:44:46:325652##01##1##16000##6144 without image is lpushed to redis
+20200606154446325675011##24402205##2020-06-06-15:44:46:325652##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:46:359290
+End Time: 2020-06-06-15:44:46:359350
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[202]
+Enter Lock Time: 2020-06-06-15:44:48:036430
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:48:044346
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[202]
+Enter Lock Time: 2020-06-06-15:44:48:094998
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:48:103700
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[203]
+Enter Lock Time: 2020-06-06-15:44:48:573867
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:48:581031
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[203]
+Enter Lock Time: 2020-06-06-15:44:48:626507
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:48:634098
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[204]
+Enter Lock Time: 2020-06-06-15:44:49:101768
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:49:109123
+store image into redis:2020-06-06-15:44:49:568789
+20200606154449568813012##24402205##2020-06-06-15:44:49:568789##01##2##16000##6144 without image is lpushed to redis
+20200606154449568813012##24402205##2020-06-06-15:44:49:568789##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:49:607656
+End Time: 2020-06-06-15:44:49:607725
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[204]
+Enter Lock Time: 2020-06-06-15:44:49:610382
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:49:620912
+store image into redis:2020-06-06-15:44:50:090993
+20200606154450091017011##24402205##2020-06-06-15:44:50:090993##01##1##16000##6144 without image is lpushed to redis
+20200606154450091017011##24402205##2020-06-06-15:44:50:090993##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:50:125950
+End Time: 2020-06-06-15:44:50:126026
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[205]
+Enter Lock Time: 2020-06-06-15:44:51:732305
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:51:741073
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[205]
+Enter Lock Time: 2020-06-06-15:44:51:795125
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:51:802490
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[206]
+Enter Lock Time: 2020-06-06-15:44:52:273049
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:52:279460
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[206]
+Enter Lock Time: 2020-06-06-15:44:52:333622
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:52:341749
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[207]
+Enter Lock Time: 2020-06-06-15:44:52:802474
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:52:811706
+store image into redis:2020-06-06-15:44:53:272751
+20200606154453272773012##24402205##2020-06-06-15:44:53:272751##01##2##16000##6144 without image is lpushed to redis
+20200606154453272773012##24402205##2020-06-06-15:44:53:272751##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:53:311275
+End Time: 2020-06-06-15:44:53:311335
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[207]
+Enter Lock Time: 2020-06-06-15:44:53:314991
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:53:325460
+store image into redis:2020-06-06-15:44:53:864456
+20200606154453864480011##24402205##2020-06-06-15:44:53:864456##01##1##16000##6144 without image is lpushed to redis
+20200606154453864480011##24402205##2020-06-06-15:44:53:864456##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:53:901765
+End Time: 2020-06-06-15:44:53:901872
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[208]
+Enter Lock Time: 2020-06-06-15:44:55:335680
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:55:344796
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[208]
+Enter Lock Time: 2020-06-06-15:44:55:394574
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:55:401268
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[209]
+Enter Lock Time: 2020-06-06-15:44:55:872094
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:55:878555
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[209]
+Enter Lock Time: 2020-06-06-15:44:55:940848
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:55:947411
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[210]
+Enter Lock Time: 2020-06-06-15:44:56:415068
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:44:56:422630
+store image into redis:2020-06-06-15:44:56:886708
+20200606154456886731012##24402205##2020-06-06-15:44:56:886708##01##2##16000##6144 without image is lpushed to redis
+20200606154456886731012##24402205##2020-06-06-15:44:56:886708##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:56:927438
+End Time: 2020-06-06-15:44:56:927497
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[210]
+Enter Lock Time: 2020-06-06-15:44:56:931320
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:44:56:941834
+store image into redis:2020-06-06-15:44:57:386486
+20200606154457386508011##24402205##2020-06-06-15:44:57:386486##01##1##16000##6144 without image is lpushed to redis
+20200606154457386508011##24402205##2020-06-06-15:44:57:386486##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:44:57:426337
+End Time: 2020-06-06-15:44:57:426395
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[211]
+Enter Lock Time: 2020-06-06-15:44:58:934282
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:44:58:942997
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[211]
+Enter Lock Time: 2020-06-06-15:44:58:993775
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:44:59:000474
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[212]
+Enter Lock Time: 2020-06-06-15:44:59:468994
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:44:59:477173
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[212]
+Enter Lock Time: 2020-06-06-15:44:59:526752
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:44:59:533537
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[213]
+Enter Lock Time: 2020-06-06-15:44:59:999809
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:00:011034
+store image into redis:2020-06-06-15:45:00:478906
+20200606154500478929012##24402205##2020-06-06-15:45:00:478906##01##2##16000##6144 without image is lpushed to redis
+20200606154500478929012##24402205##2020-06-06-15:45:00:478906##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:00:520286
+End Time: 2020-06-06-15:45:00:520337
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[213]
+Enter Lock Time: 2020-06-06-15:45:00:523974
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:00:534034
+store image into redis:2020-06-06-15:45:01:006312
+20200606154501006338011##24402205##2020-06-06-15:45:01:006312##01##1##16000##6144 without image is lpushed to redis
+20200606154501006338011##24402205##2020-06-06-15:45:01:006312##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:01:040674
+End Time: 2020-06-06-15:45:01:040734
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[214]
+Enter Lock Time: 2020-06-06-15:45:02:531812
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:45:02:541394
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[214]
+Enter Lock Time: 2020-06-06-15:45:02:594943
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:45:02:602097
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[215]
+Enter Lock Time: 2020-06-06-15:45:03:069673
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:45:03:076654
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[215]
+Enter Lock Time: 2020-06-06-15:45:03:147685
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:45:03:153929
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[216]
+Enter Lock Time: 2020-06-06-15:45:03:621797
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:03:629773
+store image into redis:2020-06-06-15:45:04:087531
+20200606154504087553012##24402205##2020-06-06-15:45:04:087531##01##2##16000##6144 without image is lpushed to redis
+20200606154504087553012##24402205##2020-06-06-15:45:04:087531##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:04:131693
+End Time: 2020-06-06-15:45:04:131763
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[216]
+Enter Lock Time: 2020-06-06-15:45:04:134505
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:04:143105
+store image into redis:2020-06-06-15:45:04:700598
+20200606154504700617011##24402205##2020-06-06-15:45:04:700598##01##1##16000##6144 without image is lpushed to redis
+20200606154504700617011##24402205##2020-06-06-15:45:04:700598##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:04:731075
+End Time: 2020-06-06-15:45:04:731142
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[217]
+Enter Lock Time: 2020-06-06-15:45:06:034858
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:45:06:041589
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[217]
+Enter Lock Time: 2020-06-06-15:45:06:094429
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:45:06:101720
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[218]
+Enter Lock Time: 2020-06-06-15:45:06:569079
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:45:06:575963
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[218]
+Enter Lock Time: 2020-06-06-15:45:06:627696
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:45:06:634455
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[219]
+Enter Lock Time: 2020-06-06-15:45:07:099596
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:07:109898
+store image into redis:2020-06-06-15:45:07:694163
+20200606154507694195012##24402205##2020-06-06-15:45:07:694163##01##2##16000##6144 without image is lpushed to redis
+20200606154507694195012##24402205##2020-06-06-15:45:07:694163##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:07:748221
+End Time: 2020-06-06-15:45:07:748302
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[219]
+Enter Lock Time: 2020-06-06-15:45:07:751264
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:07:763700
+store image into redis:2020-06-06-15:45:08:251215
+20200606154508251241011##24402205##2020-06-06-15:45:08:251215##01##1##16000##6144 without image is lpushed to redis
+20200606154508251241011##24402205##2020-06-06-15:45:08:251215##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:08:282757
+End Time: 2020-06-06-15:45:08:282802
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[220]
+Enter Lock Time: 2020-06-06-15:45:09:739275
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:45:09:745804
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[220]
+Enter Lock Time: 2020-06-06-15:45:09:800071
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:45:09:808178
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[221]
+Enter Lock Time: 2020-06-06-15:45:10:278957
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:45:10:286827
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[221]
+Enter Lock Time: 2020-06-06-15:45:10:336055
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:45:10:344689
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[222]
+Enter Lock Time: 2020-06-06-15:45:10:808624
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:10:815204
+store image into redis:2020-06-06-15:45:11:322295
+20200606154511322318012##24402205##2020-06-06-15:45:11:322295##01##2##16000##6144 without image is lpushed to redis
+20200606154511322318012##24402205##2020-06-06-15:45:11:322295##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:11:363423
+End Time: 2020-06-06-15:45:11:363494
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[222]
+Enter Lock Time: 2020-06-06-15:45:11:367020
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:11:379382
+store image into redis:2020-06-06-15:45:11:828085
+20200606154511828106011##24402205##2020-06-06-15:45:11:828085##01##1##16000##6144 without image is lpushed to redis
+20200606154511828106011##24402205##2020-06-06-15:45:11:828085##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:11:864482
+End Time: 2020-06-06-15:45:11:864531
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[223]
+Enter Lock Time: 2020-06-06-15:45:13:038219
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:45:13:044940
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[223]
+Enter Lock Time: 2020-06-06-15:45:13:103890
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:45:13:112845
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[224]
+Enter Lock Time: 2020-06-06-15:45:13:574213
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:45:13:581224
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[224]
+Enter Lock Time: 2020-06-06-15:45:13:637881
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:45:13:646222
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[225]
+Enter Lock Time: 2020-06-06-15:45:14:108449
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:14:115208
+store image into redis:2020-06-06-15:45:14:551119
+20200606154514551142012##24402205##2020-06-06-15:45:14:551119##01##2##16000##6144 without image is lpushed to redis
+20200606154514551142012##24402205##2020-06-06-15:45:14:551119##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:14:587198
+End Time: 2020-06-06-15:45:14:587258
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[225]
+Enter Lock Time: 2020-06-06-15:45:14:589227
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:14:597443
+store image into redis:2020-06-06-15:45:15:027745
+20200606154515027776011##24402205##2020-06-06-15:45:15:027745##01##1##16000##6144 without image is lpushed to redis
+20200606154515027776011##24402205##2020-06-06-15:45:15:027745##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:15:068799
+End Time: 2020-06-06-15:45:15:068860
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[226]
+Enter Lock Time: 2020-06-06-15:45:16:735639
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:45:16:744135
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[226]
+Enter Lock Time: 2020-06-06-15:45:16:794367
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:45:16:800977
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[227]
+Enter Lock Time: 2020-06-06-15:45:17:273967
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:45:17:281501
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[227]
+Enter Lock Time: 2020-06-06-15:45:17:335557
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:45:17:342531
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[228]
+Enter Lock Time: 2020-06-06-15:45:17:809464
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:17:816650
+store image into redis:2020-06-06-15:45:18:335876
+20200606154518335906012##24402205##2020-06-06-15:45:18:335876##01##2##16000##6144 without image is lpushed to redis
+20200606154518335906012##24402205##2020-06-06-15:45:18:335876##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:18:380198
+End Time: 2020-06-06-15:45:18:380257
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[228]
+Enter Lock Time: 2020-06-06-15:45:18:383596
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:18:393356
+store image into redis:2020-06-06-15:45:18:964607
+20200606154518964628011##24402205##2020-06-06-15:45:18:964607##01##1##16000##6144 without image is lpushed to redis
+20200606154518964628011##24402205##2020-06-06-15:45:18:964607##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:18:998676
+End Time: 2020-06-06-15:45:18:998733
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[229]
+Enter Lock Time: 2020-06-06-15:45:20:234359
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:45:20:244378
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[229]
+Enter Lock Time: 2020-06-06-15:45:20:296672
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:45:20:303184
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[230]
+Enter Lock Time: 2020-06-06-15:45:20:769099
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:45:20:775553
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[230]
+Enter Lock Time: 2020-06-06-15:45:20:829859
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:45:20:836346
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[231]
+Enter Lock Time: 2020-06-06-15:45:21:303407
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:21:312435
+store image into redis:2020-06-06-15:45:21:762989
+20200606154521763012012##24402205##2020-06-06-15:45:21:762989##01##2##16000##6144 without image is lpushed to redis
+20200606154521763012012##24402205##2020-06-06-15:45:21:762989##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:21:805683
+End Time: 2020-06-06-15:45:21:805742
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[231]
+Enter Lock Time: 2020-06-06-15:45:21:809211
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:21:818889
+store image into redis:2020-06-06-15:45:22:323487
+20200606154522323511011##24402205##2020-06-06-15:45:22:323487##01##1##16000##6144 without image is lpushed to redis
+20200606154522323511011##24402205##2020-06-06-15:45:22:323487##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:22:350807
+End Time: 2020-06-06-15:45:22:350864
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[232]
+Enter Lock Time: 2020-06-06-15:45:23:732092
+Current top count: 0
+line_two.ban_index:0
+line_two.ban_index:1
+End Time: 2020-06-06-15:45:23:740159
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[232]
+Enter Lock Time: 2020-06-06-15:45:23:795351
+Current top count: 0
+line_one.ban_index:0
+line_one.ban_index:1
+End Time: 2020-06-06-15:45:23:803571
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[233]
+Enter Lock Time: 2020-06-06-15:45:24:265569
+Current top count: 0
+line_two.ban_index:1
+line_two.ban_index:2
+End Time: 2020-06-06-15:45:24:272207
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[233]
+Enter Lock Time: 2020-06-06-15:45:24:332391
+Current top count: 0
+line_one.ban_index:1
+line_one.ban_index:2
+End Time: 2020-06-06-15:45:24:339104
+Camera [2] Get One Frame: Width[2048], Height[16000], nFrameNum[234]
+Enter Lock Time: 2020-06-06-15:45:24:802817
+Current top count: 0
+line_two.ban_index:2
+line_two.ban_index:3
+saveredis success2020-06-06-15:45:24:811437
+store image into redis:2020-06-06-15:45:25:263589
+20200606154525263611012##24402205##2020-06-06-15:45:25:263589##01##2##16000##6144 without image is lpushed to redis
+20200606154525263611012##24402205##2020-06-06-15:45:25:263589##01##2##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:25:301365
+End Time: 2020-06-06-15:45:25:301445
+Camera [1] Get One Frame: Width[2048], Height[16000], nFrameNum[234]
+Enter Lock Time: 2020-06-06-15:45:25:303461
+Current top count: 0
+line_one.ban_index:2
+line_one.ban_index:3
+saveredis success2020-06-06-15:45:25:311712
+store image into redis:2020-06-06-15:45:25:881774
+20200606154525881796011##24402205##2020-06-06-15:45:25:881774##01##1##16000##6144 without image is lpushed to redis
+20200606154525881796011##24402205##2020-06-06-15:45:25:881774##01##1##16000##6144 with image is lpushed to redis
+saveredis success2020-06-06-15:45:25:910637
+End Time: 2020-06-06-15:45:25:910696

@@ -19,7 +19,7 @@
 
 #include <cmath>
 
-#include "image_direct_callback.h"
+#include "image_direct_callback2.h"
 
 // g++ -std=c++11 -g -o image_direct_callback image_direct_callback.cpp -I./include -Wl,-rpath=/opt/MVS/lib/64 -L/opt/MVS/lib/64 -lMvCameraControl -lpthread -lhiredis
 
@@ -299,8 +299,8 @@ int main(void) {
 		under_height = (under_height)*40+1000;
 	}else if(work_order.zipper_num=="8")
 	{
-		upper_height =(upper_height)*45+1000; //stoi(upperCameraLineHeight);
-		under_height = (under_height)*45+1000;
+		upper_height =(upper_height)*50+1000; //stoi(upperCameraLineHeight);
+		under_height = (under_height)*50+1000;
 	}
 	//stoi(underCameraLineHeight);
     cout << "underCamera:" << under_height << endl;
